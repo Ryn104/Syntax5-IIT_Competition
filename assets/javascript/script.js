@@ -29,7 +29,7 @@ const reviews = [
     { profile: "2", name: "Rafli Wibu", role: "FrontEnd", message: "Tidak ada yang perlu disesali", rating: 2 },
     { profile: "3", name: "Manusia Sigma", role: "Samurai", message: "Keyakinan adalah langkah pertama menuju pencapaian", rating: 5 },
     { profile: "1", name: "Asy Syams", role: "Networking", message: "Tidak punya kata-kata", rating: 1 },
-    { profile: "2", name: "Akbar Emur", role: "Multimedia", message: "Tetaplah hidup walau tak berguna!", rating: 5 },
+    { profile: "2", name: "Akbar Emur", role: "Multimedia", message: "Walaupun hidup 1000 tahun kalau tak sembahyang apa gunanya", rating: 5 },
     { profile: "3", name: "Sevian Ludiana", role: "Siswa SMKN 5", message: "Tetaplah bernafas", rating: 5 },
   ];
   
