@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <!-- ggl font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind.config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {
+              inter: ["Inter"],
+              poppins: ["Poppins"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <section class="aboutus mx-20 my-20">
+      <div class="mx-auto container mt-24">
+        <!-- tentang kami -->
+        <div class="grid grid-cols-2 gap-8">
+          <div class="font-inter">
+            <h1 class="font-bold text-4xl my-4">Tentang Kami</h1>
+            <p class="text-3xl font-medium">
+              Selamat datang di EduBook, platform terdepan dalam menyediakan
+              solusi pendidikan yang inovatif dan komprehensif. Kami berdedikasi
+              untuk menciptakan pengalaman belajar yang menyenangkan dan
+              efektif, serta menyediakan berbagai kursus yang dirancang untuk
+              memenuhi kebutuhan pembelajaran Anda.
+            </p>
+            <div class="grid grid-cols-2 text-2xl font-medium mt-6">
+              <p>+62 857 1100 2971</p>
+              <p>rafligamingffpro@gmail.com</p>
+            </div>
+          </div>
+          <div class="">
+            <img
+              src="New folder/img/🌎 Map Maker_ Cibeunying Kidul, Bandung, West Java, Indonesia (Standard).png"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- visi misi -->
+        <div class="my-20 font-inter">
+          <h1 class="text-4xl font-bold font-inter text-center">Visi & Misi</h1>
+          <div class="pt-8 pb-16 px-8 bg-[#FF9900] rounded-lg mt-8 shadow-2xl">
+            <h2 class="text-4xl font-bold mb-4">MISI</h2>
+            <p class="text-2xl font-semibold">
+              Misi kami adalah menyediakan materi berkualitas sesuai kurikulum,
+              mengembangkan kursus praktis, dan mendorong pembelajaran mandiri.
+              Dukungan karier, platform kolaboratif, serta peningkatan kualitas
+              materi juga menjadi prioritas melalui umpan balik dan perkembangan
+              terkini.
+            </p>
+          </div>
+        </div>
+        <!-- tujuan kami -->
+        <div class="grid grid-cols-2 gap-20">
+          <!-- 4 kotak -->
+          <div class="kotak grid grid-cols-2 gap-4">
+            <div
+              class="grid1 bg-[#F8F8F8] rounded-lg shadow-xl px-4 pt-4 pb-8 text-2xl font-bold font-inter leading-relaxed"
+            >
+              <div
+                class="icon bg-[#FFF9F0] border p-2 border-[#FFEACC] rounded-lg h-12 w-12 mb-8"
+              >
+                <img src="New folder/img/bag.svg" class="px-1 pb-1" alt="" />
+              </div>
+              Mendukung <br />
+              Pengembangan karir
+            </div>
+            <div
+              class="grid1 bg-[#F8F8F8] rounded-lg shadow-xl px-4 pt-4 pb-8 text-2xl font-bold font-inter leading-relaxed"
+            >
+              <div
+                class="icon bg-[#FFF9F0] border p-2 border-[#FFEACC] rounded-lg h-12 w-12 mb-8"
+              >
+                <img src="New folder/img/book.svg" class="px-1 pb-1" alt="" />
+              </div>
+              Menyediakan Materi Berkualitas
+            </div>
+            <div
+              class="grid1 bg-[#F8F8F8] rounded-lg shadow-xl px-4 pt-4 pb-8 text-2xl font-bold font-inter leading-relaxed"
+            >
+              <div
+                class="icon bg-[#FFF9F0] border p-2 border-[#FFEACC] rounded-lg h-12 w-12 mb-8"
+              >
+                <img src="New folder/img/puzzle.svg" class="" alt="" />
+              </div>
+              Mendorong Pembelajar Mandiri
+            </div>
+            <div
+              class="grid1 bg-[#F8F8F8] rounded-lg shadow-xl px-4 pt-4 pb-8 text-2xl font-bold font-inter leading-relaxed"
+            >
+              <div
+                class="icon bg-[#FFF9F0] border p-2 border-[#FFEACC] rounded-lg h-12 w-12 mb-8"
+              >
+                <img src="New folder/img/sirine.svg" class="" alt="" />
+              </div>
+              Mengembangkan Kursus Praktis
+            </div>
+          </div>
+
+          <div class="tujuan-kami font-inter">
+            <h1 class="text-4xl font-bold my-6 text-end">Tujuan Kami</h1>
+            <p class="text-2xl font-bold text-justify leading-relaxed">
+              Menjadi platform pendidikan terkemuka yang memberdayakan siswa SMK
+              sederajat dengan akses mudah dan berkualitas kepada materi dan
+              kursus yang relevan, untuk mempersiapkan mereka menghadapi
+              tantangan dunia kerja dan meraih kesuksesan di masa depan.
+            </p>
+          </div>
+        </div>
+        <!-- ajakan -->
+        <div class="px-10 pt-10 py-16 bg-[#FF9900] rounded-lg shadow-xl mt-20">
+          
+          <h1 class="text-4xl font-bold font-poppins">
+            Tingkatkan skill mu dengan
+            <span class="text-[#51EAFF]"> Edubook!</span> Belajar online <br />
+            praktis untuk karier masa depan!
+          </h1>
+          <a
+            href=""
+            class="text-3xl justify-center font-poppins font-semibold py-3 px-4 bg-[#FFB651] rounded-xl"
+            >bergabung</a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
