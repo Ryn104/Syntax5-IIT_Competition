@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komunitas</title>
+    <!-- Framework -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- NavBar -->
+    <div class="navbar bg-base-100 z-40 2xl:py-6 2xl:px-36">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a>Kursus</a></li>
+                    <li><a>Quiz</a></li>
+                    <li><a>Komunitas</a></li>
+                    <li><a>Tentang Kami</a></li>
+                    <li><a>Langganan</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost text-xl 2xl:text-3xl">EduBook</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a class="2xl:text-xl">Kursus</a></li>
+                <li><a class="2xl:text-xl">Quiz</a></li>
+                <li><a class="2xl:text-xl">Komunitas</a></li>
+                <li><a class="2xl:text-xl">Tentang Kami</a></li>
+                <li><a class="2xl:text-xl">Langganan</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a class="btn bg-[#FF9500] text-white 2xl:text-xl 2xl:w-32">Sig in</a>
+        </div>
+    </div>
+    <!-- End NavBar -->
+
+    <!-- Komunitas start -->
+     <div class="komun-head flex p-14 sm:max-sm:flex-none" style="justify-content: space-between;">
+        <p class="font-bold text-3xl w-1/4">Pilih Topik yang Mau Kamu Diskusikan!</p>
+        <!-- label input -->
+        <label class="input input-bordered flex items-center gap-2">
+            <input type="text" class="grow" placeholder="Search" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              class="h-4 w-4 opacity-70">
+              <path
+                fill-rule="evenodd"
+                d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+                clip-rule="evenodd" />
+            </svg>
+          </label>
+     </div>
+
+     <div class="flex justify-center">
+     <div class="komun-cards grid grid-cols-2 gap-6 sm:grid-cols-1">
+        <div class="komun-card place-items-end">
+            <img src="/assets/images/komun1.png" alt="">
+            <button class="bg-yellow-400 w-32 h-10 border border-yellow-100 text-white font-bold">Telusuri</button>
+        </div>
+        <div class="komun-card">
+            <img src="/assets/images/komun2.png" alt="">
+            <button class="bg-yellow-400 w-32 h-10 border border-yellow-100 text-white font-bold">Telusuri</button>
+        </div>
+        <div class="komun-card">
+            <img src="/assets/images/komun3.png" alt="">
+            <button class="bg-yellow-400 w-32 h-10 border border-yellow-100 text-white font-bold">Telusuri</button>
+        </div>
+        <div class="komun-card">
+            <img src="/assets/images/komun4.png" alt="">
+            <button class="bg-yellow-400 w-32 h-10 border border-yellow-100 text-white font-bold">Telusuri</button>
+        </div>
+     </div>
+    </div>
+    <!-- Komunitas end -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
