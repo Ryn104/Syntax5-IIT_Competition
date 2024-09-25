@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk Quiz!</title>
+    <!-- Framework -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- NavBar -->
+    <div class="navbar bg-base-100 fixed z-40 2xl:py-6 2xl:px-36">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a>Kursus</a></li>
+                    <li><a>Quiz</a></li>
+                    <li><a>Komunitas</a></li>
+                    <li><a>Tentang Kami</a></li>
+                    <li><a>Langganan</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost text-xl 2xl:text-3xl">EduBook</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a class="2xl:text-xl">Kursus</a></li>
+                <li><a class="2xl:text-xl">Quiz</a></li>
+                <li><a class="2xl:text-xl">Komunitas</a></li>
+                <li><a class="2xl:text-xl">Tentang Kami</a></li>
+                <li><a class="2xl:text-xl">Langganan</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a class="btn bg-[#FF9500] text-white 2xl:text-xl 2xl:w-32">Sig in</a>
+        </div>
+    </div>
+    <!-- End NavBar -->
+
+    <!-- Quiz Start -->
+     <section class="quiz">
+
+        <!-- Question Start -->
+        <div class="flex justify-center">
+            <div class="quest-title w-full">
+                <p class="text-center text-3xl font-bold">Dasar Ilmu Komputer</p>
+                <div class="flex justify-center mt-5">
+                    <progress class="progress progress-warning w-2/5" value="70" max="100"></progress>
+                </div>
+                <div class="flex justify-center mt-3">      
+                    <p class="text-xl font-bold">Apa komponen utama yang bertanggung jawab untuk <br> menjalankan instruksi dalam komputer?</p>
+                </div>
+            </div>
+        </div>
+        <div class="quest-answer grid grid-cols-2 gap-6 p-20 mt-5">
+            <button class="bg-slate-200 h-20 text-2xl font-bold hover:bg-slate-400 hover:text-white rounded-md">RAM</button>
+            <button class="bg-slate-200 h-20 text-2xl font-bold hover:bg-slate-400 hover:text-white rounded-md">CPU</button>
+            <button class="bg-slate-200 h-20 text-2xl font-bold hover:bg-slate-400 hover:text-white rounded-md">Hardisk</button>
+            <button class="bg-slate-200 h-20 text-2xl font-bold hover:bg-slate-400 hover:text-white rounded-md">Monitor</button>
+        </div>
+
+        <!-- Question End -->
+        
+        <!-- Footer -->
+        <div class="level-next p-10 flex justify-between bg-slate-200 mt-3">
+            <button class="bg-orange-300 w-32 py-1 font-bold rounded-md">Sebelum</button>
+            <button class="bg-orange-300 w-32 py-1 font-bold rounded-md">Lanjut</button>
+        </div>
+        <!-- footer -->
+
+    </section>
+    <!-- Quiz End -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk Quiz!</title>
+    <!-- Framework -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- NavBar -->
+    <div class="navbar bg-base-100 fixed z-40 2xl:py-6 2xl:px-36">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a>Kursus</a></li>
+                    <li><a>Quiz</a></li>
+                    <li><a>Komunitas</a></li>
+                    <li><a>Tentang Kami</a></li>
+                    <li><a>Langganan</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost text-xl 2xl:text-3xl">EduBook</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a class="2xl:text-xl">Kursus</a></li>
+                <li><a class="2xl:text-xl">Quiz</a></li>
+                <li><a class="2xl:text-xl">Komunitas</a></li>
+                <li><a class="2xl:text-xl">Tentang Kami</a></li>
+                <li><a class="2xl:text-xl">Langganan</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a class="btn bg-[#FF9500] text-white 2xl:text-xl 2xl:w-32">Sig in</a>
+        </div>
+    </div>
+    <!-- End NavBar -->
+
+    <!-- Quiz Start -->
+     <section class="quiz">
+
+        <!-- quiz carousel -->
+        <div class="quiz-carousel flex justify-center">            
+            <div class="w-4/5 bg-amber-300 inline-block mb-12">
+                <div class="carousel w-full h-96 mx-auto">
+                    <div id="item1" class="carousel-item w-full">
+                    <img
+                        src="/assets/images/quiz.jpg"
+                        class="w-full" />
+                    </div>
+                    <div id="item2" class="carousel-item w-full">
+                    <img
+                        src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                        class="w-full" />
+                    </div>
+                    <div id="item3" class="carousel-item w-full">
+                    <img
+                        src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                        class="w-full" />
+                    </div>
+                </div>
+                <div class="flex w-full justify-center gap-2 py-2">
+                    <a href="#item1" class="btn btn-xs px-8"></a>
+                    <a href="#item2" class="btn btn-xs px-8"></a>
+                    <a href="#item3" class="btn btn-xs px-8"></a>
+                </div>
+            </div>
+        </div>
+        <!-- quiz carousel -->
+
+        <div class="quiz-komponen mb-32">
+            <p class="text-2xl font-bold ml-40 mb-12">Kamu Pilih TJKT!</p> 
+            <p class="text-2xl font-bold ml-40 mb-12">Level Kamu</p>
+            <div class="flex justify-center">
+                <div class="quiz-level  flex justify-center w-4/5 p-8">
+                    <div class="img-level  grid grid-cols-3 p-24 py-6 gap-16 w-full">
+                        <a href="quizQuestion.html" class="btn content-center p-16 btn-circle text-center p-10 bg-red-600 border-8 border-black rounded-full text-5xl text-slate-100 font-bold">1</a>
+                        <a href="quizQuestion.html" class="btn content-center p-16 btn-circle text-center p-10 bg-red-600 border-8 border-black rounded-full text-5xl text-slate-100 font-bold">2</a>
+                        <a href="quizQuestion.html" class="btn content-center p-16 btn-circle text-center p-10 bg-red-600 border-8 border-black rounded-full text-5xl text-slate-100 font-bold">3</a>
+                        <a href="quizQuestion.html" class="btn content-center p-16 btn-circle text-center p-10 bg-red-600 border-8 border-black rounded-full text-5xl text-slate-100 font-bold">4</a>
+                        <a href="quizQuestion.html" class="btn content-center p-16 btn-circle text-center p-10 bg-red-600 border-8 border-black rounded-full text-5xl text-slate-100 font-bold">5</a>
+                        <a href="quizQuestion.html" class="btn content-center p-16 btn-circle text-center p-10 bg-red-600 border-8 border-black rounded-full text-5xl text-slate-100 font-bold">6</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="flex p-14" style="justify-content: space-between;">
+            <div class="footer-kiri">
+                <p>Edubook</p>
+                <div class="footer-logo">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+            <div class="footer-kanan">
+                <div class="footer-kanan-link flex gap-20 ">
+                    <div class="kanan-link-1 leading-9">
+                        <p>Topik</p>
+                        <a href=""><p>Page</p></a>
+                        <a href=""><p>Page</p></a>
+                        <a href=""><p>Page</p></a>
+                    </div>
+                    <div class="kanan-link-2 leading-9">
+                        <p>Topik</p>
+                        <a href=""><p>Page</p></a>
+                        <a href=""><p>Page</p></a>
+                        <a href=""><p>Page</p></a>
+                    </div>
+                    <div class="kanan-link-3 leading-9">
+                        <p>Topik</p>
+                        <a href=""><p>Page</p></a>
+                        <a href=""><p>Page</p></a>
+                        <a href=""><p>Page</p></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+
+    </section>
+    <!-- Quiz End -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
