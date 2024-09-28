@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,114 +9,73 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-    <!-- NavBar -->
-    <div class="navbar bg-base-100 fixed z-40 2xl:py-6 2xl:px-36">
-        <div class="navbar-start">
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h8m-8 6h16" />
-                    </svg>
-                </div>
-                <ul tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    <li><a>Kursus</a></li>
-                    <li><a>Quiz</a></li>
-                    <li><a>Komunitas</a></li>
-                    <li><a>Tentang Kami</a></li>
-                    <li><a>Langganan</a></li>
-                </ul>
-            </div>
-            <a class="btn btn-ghost text-xl 2xl:text-3xl">EduBook</a>
+
+<body class="bg-base-200">
+  <!-- NavBar -->
+  <div class="navbar bg-base-100 fixed z-40 2xl:py-6 2xl:px-36">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
         </div>
-        <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-                <li><a class="2xl:text-xl">Kursus</a></li>
-                <li><a class="2xl:text-xl">Quiz</a></li>
-                <li><a class="2xl:text-xl">Komunitas</a></li>
-                <li><a class="2xl:text-xl">Tentang Kami</a></li>
-                <li><a class="2xl:text-xl">Langganan</a></li>
-            </ul>
-        </div>
-        <div class="navbar-end">
-            <a class="btn bg-[#FF9500] text-white 2xl:text-xl 2xl:w-32">Sig in</a>
-        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li><a href="/pages/kursus.html">Kursus</a></li>
+          <li><a href="/pages/quiz.html">Quiz</a></li>
+          <li><a href="/pages/komunitas.html">Komunitas</a></li>
+          <li><a href="/pages/tentangkami.html">Tentang Kami</a></li>
+          <li><a href="">Langganan</a></li>
+        </ul>
+      </div>
+      <a class="btn btn-ghost text-xl 2xl:text-3xl" href="/index.html">EduBook</a>
     </div>
-    <!-- End NavBar -->
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a class="2xl:text-xl" href="/pages/kursus.html">Kursus</a></li>
+        <li><a class="2xl:text-xl" href="/pages/quiz.html">Quiz</a></li>
+        <li><a class="2xl:text-xl" href="/pages/komunitas.html">Komunitas</a></li>
+        <li><a class="2xl:text-xl" href="/pages/tentangkami.html">Tentang Kami</a></li>
+        <li><a class="2xl:text-xl" href="">Langganan</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <a class="btn bg-[#FF9500] text-white 2xl:text-xl 2xl:w-32">Sig in</a>
+    </div>
+  </div>
+  <!-- End NavBar -->
 
     <!-- Quiz Start -->
-     <section class="quiz 2xl:pt-40">
+    <section class="quiz 2xl:pt-40">
 
         <!-- quiz carousel -->
-        <div class="quiz-carousel flex justify-center">            
-            <div class="w-4/5 bg-amber-300 inline-block mb-12">
-                <div class="carousel w-full h-96 mx-auto">
-                    <div id="item1" class="carousel-item w-full">
-                    <img
-                        src="/assets/Image/quiz.jpg"
-                        class="w-full" />
-                    </div>
-                    <div id="item2" class="carousel-item w-full">
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                        class="w-full" />
-                    </div>
-                    <div id="item3" class="carousel-item w-full">
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                        class="w-full" />
-                    </div>
-                </div>
-                <div class="flex w-full justify-center gap-2 py-2">
-                    <a href="#item1" class="btn btn-xs px-8"></a>
-                    <a href="#item2" class="btn btn-xs px-8"></a>
-                    <a href="#item3" class="btn btn-xs px-8"></a>
-                </div>
+        <div class="carousel w-full mt-16">
+            <div id="item1" class="carousel-item w-full">
+                <img src="/assets/Image/banner-quiz1.jpg" class="w-full" />
             </div>
+            <div id="item2" class="carousel-item w-full">
+                <img src="/assets/Image/banner-quiz2.jpg" class="w-full" />
+            </div>
+            <div id="item3" class="carousel-item w-full">
+                <img src="/assets/Image/banner-quiz3.jpg" class="w-full" />
+            </div>
+        </div>
+        <div class="flex w-full justify-center gap-2 py-2 mt-[-30px] mb-10">
+            <a href="#item1" class="w-[40px] h-[10px] backdrop-blur-sm bg-gray-400/20 hover:bg-gray-700/10 rounded-l-lg"></a>
+            <a href="#item2" class="w-[40px] h-[10px] backdrop-blur-sm bg-gray-400/20 hover:bg-gray-700/10"></a>
+            <a href="#item3" class="w-[40px] h-[10px] backdrop-blur-sm bg-gray-400/20 hover:bg-gray-700/10 rounded-r-lg"></a>
         </div>
         <!-- quiz carousel -->
 
         <div class="quiz-komponen mb-32">
-            <p class="text-2xl font-bold ml-40 mb-12">Quiz Time!</p> 
+            <p class="text-2xl font-bold xl:ml-40 text-center mb-12">Quiz Time!</p>
             <div class="flex justify-center">
-                <div class="quiz-accordion w-4/5">
-                    <div class="flex">                
-                        <div class="collapse collapse-arrow bg-transparent">
-                            <input type="radio" name="my-accordion-2" checked="checked" />
-                            <div class="collapse-title text-xl font-medium">Kejuruan <hr class="mt-3"></div>
-                            <div class="collapse-content block ">
-                                <a href=""><p class="hover:border-b-2 hover:border-gray w-2/4">RPL</p></a>
-                                <a href=""><p class="hover:border-b-2 hover:border-gray w-2/4">Broadcasting</p></a>
-                                <a href="quizInner.html"><p class="hover:border-b-2 hover:border-gray w-2/4">TJKT</p></a>
-                                <a href=""><p class="hover:border-b-2 hover:border-gray w-2/4">Tata Boga</p></a>
-                            </div>
-                        </div>
-                        <div class="collapse collapse-arrow bg-transparent">
-                            <input type="radio" name="my-accordion-2" />
-                            <div class="collapse-title text-xl font-medium">Mata Pelajaran Umum <hr class="mt-3"></div>
-                            <div class="collapse-content block">
-                                <a href=""><p class="hover:border-b-2 hover:border-gray w-2/4">Matematika</p></a>
-                                <a href=""><p class="hover:border-b-2 hover:border-gray w-2/4">B. Indonesia</p></a>
-                                <a href=""><p class="hover:border-b-2 hover:border-gray w-2/4">Sejarah</p></a>
-                                <a href=""><p class="hover:border-b-2 hover:border-gray w-2/4">PPKN</p></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="collapse collapse-arrow bg-transparent w-2/4">
-                        <input type="radio" name="my-accordion-2" />
-                        <div class="collapse-title text-xl font-medium">Terpopuler</div>
-                        <div class="collapse-content">
-                            <p>hello</p>
-                        </div>
-                    </div>
+                <div class="quiz-accordion w-full xl:w-4/5" id="quiz-container">
+                    <!-- Konten quiz akan dimasukkan di sini melalui JavaScript -->
                 </div>
             </div>
         </div>
-        
-        
+
         <footer class="flex p-14" style="justify-content: space-between;">
             <div class="footer-kiri">
                 <p>Edubook</p>
@@ -127,27 +87,118 @@
                 <div class="footer-kanan-link flex gap-20 ">
                     <div class="kanan-link-1 leading-9">
                         <p>Topik</p>
-                        <a href=""><p>Page</p></a>
-                        <a href=""><p>Page</p></a>
-                        <a href=""><p>Page</p></a>
+                        <a href="">
+                            <p>Page</p>
+                        </a>
+                        <a href="">
+                            <p>Page</p>
+                        </a>
+                        <a href="">
+                            <p>Page</p>
+                        </a>
                     </div>
                     <div class="kanan-link-2 leading-9">
                         <p>Topik</p>
-                        <a href=""><p>Page</p></a>
-                        <a href=""><p>Page</p></a>
-                        <a href=""><p>Page</p></a>
+                        <a href="">
+                            <p>Page</p>
+                        </a>
+                        <a href="">
+                            <p>Page</p>
+                        </a>
+                        <a href="">
+                            <p>Page</p>
+                        </a>
                     </div>
                     <div class="kanan-link-3 leading-9">
                         <p>Topik</p>
-                        <a href=""><p>Page</p></a>
-                        <a href=""><p>Page</p></a>
-                        <a href=""><p>Page</p></a>
+                        <a href="">
+                            <p>Page</p>
+                        </a>
+                        <a href="">
+                            <p>Page</p>
+                        </a>
+                        <a href="">
+                            <p>Page</p>
+                        </a>
                     </div>
                 </div>
             </div>
         </footer>
     </section>
     <!-- Quiz End -->
+    <script>
+const quizData = [
+    {
+        kategori: "Kejuruan",
+        quizzes: [
+            { nama: "RPL", link: "quizInner.html?quiz=RPL" },
+            { nama: "Broadcasting", link: "quizInner.html?quiz=Broadcasting" },
+            { nama: "TJKT", link: "quizInner.html?quiz=TJKT" },
+            { nama: "Tata Boga", link: "quizInner.html?quiz=TataBoga" }
+        ]
+    },
+    {
+        kategori: "Mata Pelajaran Umum",
+        quizzes: [
+            { nama: "Matematika", link: "quizInner.html?quiz=Matematika" },
+            { nama: "B. Indonesia", link: "quizInner.html?quiz=Indonesia" },
+            { nama: "Sejarah", link: "quizInner.html?quiz=Sejarah" },
+            { nama: "PPKN", link: "quizInner.html?quiz=PPKN" }
+        ]
+    },
+    {
+        kategori: "Terpopuler",
+        quizzes: [
+            { nama: "Quiz Terpopuler", link: "quizInner.html?quiz=Terpopuler" }
+        ]
+    }
+];
+
+
+// Fungsi untuk membuat quiz accordion secara dinamis
+function generateQuizAccordion(quizData) {
+    const quizContainer = document.getElementById('quiz-container');
+    quizData.forEach((kategori, index) => {
+        const collapseDiv = document.createElement('div');
+        collapseDiv.className = 'collapse collapse-arrow bg-transparent';
+        
+        const input = document.createElement('input');
+        input.type = 'radio';
+        input.name = 'my-accordion-2';
+        if (index === 0) input.checked = true;  // Memilih radio pertama sebagai default
+        
+        const collapseTitle = document.createElement('div');
+        collapseTitle.className = 'collapse-title text-lg xl:text-xl font-medium';
+        collapseTitle.textContent = kategori.kategori;
+        
+        const hr = document.createElement('hr');
+        hr.className = 'mt-3';
+        collapseTitle.appendChild(hr);
+        
+        const collapseContent = document.createElement('div');
+        collapseContent.className = 'collapse-content block';
+        
+        kategori.quizzes.forEach(quiz => {
+            const a = document.createElement('a');
+            a.href = quiz.link;
+            const p = document.createElement('p');
+            p.className = 'hover:border-b-2 hover:border-gray w-2/4';
+            p.textContent = quiz.nama;
+            a.appendChild(p);
+            collapseContent.appendChild(a);
+        });
+        
+        collapseDiv.appendChild(input);
+        collapseDiv.appendChild(collapseTitle);
+        collapseDiv.appendChild(collapseContent);
+        quizContainer.appendChild(collapseDiv);
+    });
+}
+
+// Memanggil fungsi untuk membuat quiz accordion
+generateQuizAccordion(quizData);
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
+
 </html>

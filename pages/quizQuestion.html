@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,76 +9,154 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <!-- NavBar -->
-    <div class="navbar bg-base-100 fixed z-40 2xl:py-6 2xl:px-36">
-        <div class="navbar-start">
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h8m-8 6h16" />
-                    </svg>
-                </div>
-                <ul tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    <li><a>Kursus</a></li>
-                    <li><a>Quiz</a></li>
-                    <li><a>Komunitas</a></li>
-                    <li><a>Tentang Kami</a></li>
-                    <li><a>Langganan</a></li>
-                </ul>
-            </div>
-            <a class="btn btn-ghost text-xl 2xl:text-3xl">EduBook</a>
+  <!-- NavBar -->
+  <div class="navbar bg-base-100 fixed z-40 2xl:py-6 2xl:px-36">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
         </div>
-        <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-                <li><a class="2xl:text-xl">Kursus</a></li>
-                <li><a class="2xl:text-xl">Quiz</a></li>
-                <li><a class="2xl:text-xl">Komunitas</a></li>
-                <li><a class="2xl:text-xl">Tentang Kami</a></li>
-                <li><a class="2xl:text-xl">Langganan</a></li>
-            </ul>
-        </div>
-        <div class="navbar-end">
-            <a class="btn bg-[#FF9500] text-white 2xl:text-xl 2xl:w-32">Sig in</a>
-        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li><a href="/pages/kursus.html">Kursus</a></li>
+          <li><a href="/pages/quiz.html">Quiz</a></li>
+          <li><a href="/pages/komunitas.html">Komunitas</a></li>
+          <li><a href="/pages/tentangkami.html">Tentang Kami</a></li>
+          <li><a href="">Langganan</a></li>
+        </ul>
+      </div>
+      <a class="btn btn-ghost text-xl 2xl:text-3xl" href="/index.html">EduBook</a>
     </div>
-    <!-- End NavBar -->
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a class="2xl:text-xl" href="/pages/kursus.html">Kursus</a></li>
+        <li><a class="2xl:text-xl" href="/pages/quiz.html">Quiz</a></li>
+        <li><a class="2xl:text-xl" href="/pages/komunitas.html">Komunitas</a></li>
+        <li><a class="2xl:text-xl" href="/pages/tentangkami.html">Tentang Kami</a></li>
+        <li><a class="2xl:text-xl" href="">Langganan</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <a class="btn bg-[#FF9500] text-white 2xl:text-xl 2xl:w-32">Sig in</a>
+    </div>
+  </div>
+  <!-- End NavBar -->
 
     <!-- Quiz Start -->
-     <section class="quiz">
-
+    <section class="quiz 2xl:pt-40">
         <!-- Question Start -->
         <div class="flex justify-center">
             <div class="quest-title w-full">
-                <p class="text-center text-3xl font-bold">Dasar Ilmu Komputer</p>
+                <p id="quiz-title" class="text-center text-3xl font-bold">Quiz Title</p>
                 <div class="flex justify-center mt-5">
                     <progress class="progress progress-warning w-2/5" value="70" max="100"></progress>
                 </div>
-                <div class="flex justify-center mt-3">      
-                    <p class="text-xl font-bold">Apa komponen utama yang bertanggung jawab untuk <br> menjalankan instruksi dalam komputer?</p>
+                <div class="flex justify-center mt-3">
+                    <p id="quiz-question" class="text-xl font-bold">Question will be here...</p>
                 </div>
             </div>
         </div>
-        <div class="quest-answer grid grid-cols-2 gap-6 p-20 mt-5">
-            <button class="bg-slate-200 h-20 text-2xl font-bold hover:bg-slate-400 hover:text-white rounded-md">RAM</button>
-            <button class="bg-slate-200 h-20 text-2xl font-bold hover:bg-slate-400 hover:text-white rounded-md">CPU</button>
-            <button class="bg-slate-200 h-20 text-2xl font-bold hover:bg-slate-400 hover:text-white rounded-md">Hardisk</button>
-            <button class="bg-slate-200 h-20 text-2xl font-bold hover:bg-slate-400 hover:text-white rounded-md">Monitor</button>
+
+        <!-- Quiz Answers -->
+        <div id="quiz-options" class="quest-answer grid grid-cols-2 gap-6 p-20 mt-5">
+            <!-- Opsi jawaban akan diisi di sini -->
         </div>
 
-        <!-- Question End -->
-        
         <!-- Footer -->
         <div class="level-next p-10 flex justify-between bg-slate-200 mt-3">
-            <button class="bg-orange-300 w-32 py-1 font-bold rounded-md">Sebelum</button>
-            <button class="bg-orange-300 w-32 py-1 font-bold rounded-md">Lanjut</button>
+            <button id="prev-button" class="bg-orange-300 w-32 py-1 font-bold rounded-md">Sebelum</button>
+            <button id="next-button" class="bg-orange-300 w-32 py-1 font-bold rounded-md">Lanjut</button>
         </div>
         <!-- footer -->
 
     </section>
     <!-- Quiz End -->
-    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        // Fungsi untuk mengambil soal dari JSON
+        async function loadQuizData() {
+            try {
+                const response = await fetch('/assets/json/SoalQuiz.json'); // Ambil data dari JSON
+                if (!response.ok) {
+                    throw new Error('Data tidak ditemukan');
+                }
+                const quizData = await response.json();
+                return quizData;
+            } catch (error) {
+                console.error('Error fetching the quiz data:', error);
+                alert('Gagal mengambil data quiz. Pastikan file JSON tersedia dan jalurnya benar.');
+            }
+        }
+
+        // Menampilkan soal dan opsi jawaban berdasarkan subject dan level
+        function displayQuiz(quizData, subject, level) {
+            const quizTitle = document.getElementById('quiz-title');
+            const quizQuestion = document.getElementById('quiz-question');
+            const quizOptions = document.getElementById('quiz-options');
+
+            // Cek apakah subject dan level valid dalam data JSON
+            if (!quizData || !quizData[subject] || !quizData[subject][level]) {
+                quizTitle.textContent = 'Data quiz tidak ditemukan';
+                quizQuestion.textContent = '';
+                return;
+            }
+
+            // Ambil soal dari data JSON
+            const quizContent = quizData[subject][level];
+
+            // Tampilkan judul dan soal
+            quizTitle.textContent = `${subject} Level ${level}`;
+            quizQuestion.textContent = quizContent.question;
+
+            // Tampilkan opsi jawaban
+            quizOptions.innerHTML = '';
+            quizContent.options.forEach((option) => {
+                const button = document.createElement('button');
+                button.textContent = option;
+                button.classList = 'bg-slate-200 h-20 text-2xl font-bold hover:bg-slate-400 hover:text-white rounded-md';
+                button.addEventListener('click', () => {
+                    validateAnswer(button, option, quizContent.correctAnswer);
+                });
+                quizOptions.appendChild(button);
+            });
+        }
+
+        // Fungsi untuk memvalidasi jawaban
+        function validateAnswer(button, selectedOption, correctAnswer) {
+            // Reset semua tombol ke warna awal
+            const buttons = document.querySelectorAll('#quiz-options button');
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-green-500', 'bg-red-500'); // Menghapus kelas hijau dan merah
+                btn.classList.add('bg-slate-200'); // Mengembalikan ke warna awal
+            });
+
+            if (selectedOption === correctAnswer) {
+                alert('Jawaban benar!');
+                button.classList.add('bg-green-500'); // Tambahkan kelas untuk jawaban benar
+            } else {
+                alert('Jawaban salah!');
+                button.classList.add('bg-red-500'); // Tambahkan kelas untuk jawaban salah
+            }
+        }
+
+        // Mengambil subject dan level dari URL
+        const params = new URLSearchParams(window.location.search);
+        const subject = params.get('subject');
+        const level = params.get('level');
+
+        // Validasi jika tidak ada subject atau level
+        if (!subject || !level) {
+            alert('Parameter URL tidak lengkap. Pastikan menambahkan subject dan level.');
+        } else {
+            // Load quiz data dan tampilkan soal
+            loadQuizData().then(quizData => {
+                if (quizData) {
+                    displayQuiz(quizData, subject, level);
+                }
+            });
+        }
+    </script>
+    <script src="/assets/javascript/script.js"></script>
 </body>
 </html>

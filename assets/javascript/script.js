@@ -66,4 +66,78 @@ const reviews = [
   
     carouselContainer.innerHTML += carouselItem;
   });
+
+
+  // Data Quiz
+  document.querySelectorAll('.btn-level').forEach(button => {
+    button.addEventListener('click', function() {
+        const level = this.getAttribute('data-level');
+        // Redirect to quizQuestion.html with query parameters for quiz name, subject, and level
+        window.location.href = `quizQuestion.html?quiz=${quizName}&subject=${subject}&level=${level}`;
+    });
+});
+
+// Ensure this is in your quiz page's script
+async function loadQuizData() {
+  try {
+      const response = await fetch('/assets/json/SoalQuiz.json'); // Fetch the JSON data
+      if (!response.ok) {
+          throw new Error('Data tidak ditemukan');
+      }
+      const quizData = await response.json();
+      return quizData;
+  } catch (error) {
+      console.error('Error fetching the quiz data:', error);
+      alert('Gagal mengambil data quiz. Pastikan file JSON tersedia dan jalurnya benar.');
+  }
+}
+
+function displayQuiz(quizData, subject, level) {
+  const quizTitle = document.getElementById('quiz-title');
+  const quizQuestion = document.getElementById('quiz-question');
+  const quizOptions = document.getElementById('quiz-options');
+
+  // Validate the subject and level in the JSON data
+  if (!quizData || !quizData[subject] || !quizData[subject][level]) {
+      quizTitle.textContent = 'Data quiz tidak ditemukan';
+      quizQuestion.textContent = '';
+      return;
+  }
+
+  // Get the quiz content for the specified subject and level
+  const quizContent = quizData[subject][level];
+
+  // Display the question and options
+  quizTitle.textContent = `${subject} Level ${level}`;
+  quizQuestion.textContent = quizContent.question;
+
+  // Clear previous options
+  quizOptions.innerHTML = '';
+  quizContent.options.forEach((option) => {
+      const button = document.createElement('button');
+      button.textContent = option;
+      button.classList = 'bg-slate-200 h-20 text-2xl font-bold hover:bg-slate-400 hover:text-white rounded-md';
+      button.addEventListener('click', () => {
+          validateAnswer(option, quizContent.correctAnswer);
+      });
+      quizOptions.appendChild(button);
+  });
+}
+const params = new URLSearchParams(window.location.search);
+const subject = params.get('subject');
+const level = params.get('level');
+
+// Validasi jika tidak ada subject atau level
+if (!subject || !level) {
+    alert('Parameter URL tidak lengkap. Pastikan menambahkan subject dan level.');
+} else {
+    // Load quiz data dan tampilkan soal
+    loadQuizData().then(quizData => {
+        if (quizData) {
+            displayQuiz(quizData, subject, level);
+        }
+    });
+}
+
+  // End Data Quiz
   
