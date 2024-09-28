@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body class="bg-base-200">
   <!-- NavBar -->
   <div class="navbar bg-base-100 fixed z-40 2xl:py-6 2xl:px-36">
     <div class="navbar-start">
@@ -44,32 +44,34 @@
   <!-- End NavBar -->
 
     <!-- Quiz Start -->
-    <section class="quiz 2xl:pt-40">
-        <!-- Question Start -->
-        <div class="flex justify-center">
-            <div class="quest-title w-full">
-                <p id="quiz-title" class="text-center text-3xl font-bold">Quiz Title</p>
-                <div class="flex justify-center mt-5">
-                    <progress class="progress progress-warning w-2/5" value="70" max="100"></progress>
-                </div>
-                <div class="flex justify-center mt-3">
-                    <p id="quiz-question" class="text-xl font-bold">Question will be here...</p>
+    <section class="hero bg-base-200 min-h-screen 2xl:max-w-full md:max-w-full">
+        <section class="quiz 2xl:pt-40">
+            <!-- Question Start -->
+            <div class="flex justify-center">
+                <div class="quest-title w-full">
+                    <p id="quiz-title" class="text-center text-3xl font-bold mt-[-40px]">Quiz Title</p>
+                    <div class="flex justify-center mt-5">
+                        <progress class="progress progress-warning w-2/5" value="70" max="100"></progress>
+                    </div>
+                    <div class="flex justify-center mt-3">
+                        <p id="quiz-question" class="text-2xl pt-5 pb-10 h-full font-bold"></p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Quiz Answers -->
-        <div id="quiz-options" class="quest-answer grid grid-cols-2 gap-6 p-20 mt-5">
-            <!-- Opsi jawaban akan diisi di sini -->
-        </div>
-
-        <!-- Footer -->
-        <div class="level-next p-10 flex justify-between bg-slate-200 mt-3">
-            <button id="prev-button" class="bg-orange-300 w-32 py-1 font-bold rounded-md">Sebelum</button>
-            <button id="next-button" class="bg-orange-300 w-32 py-1 font-bold rounded-md">Lanjut</button>
-        </div>
-        <!-- footer -->
-
+    
+            <!-- Quiz Answers -->
+            <div id="quiz-options" class="quest-answer grid grid-cols-2 gap-6 px-5 xl:p-20 mt-5">
+                <!-- Opsi jawaban akan diisi di sini -->
+            </div>
+    
+            <!-- Footer -->
+            <div class="level-next p-10 flex justify-between bg-slate-200 absolute inset-x-0 bottom-0">
+                <button id="prev-button" class="bg-orange-300 w-32 py-1 font-bold rounded-md">Sebelum</button>
+                <button id="next-button" class="bg-orange-300 w-32 py-1 font-bold rounded-md">Lanjut</button>
+            </div>
+            <!-- footer -->
+    
+        </section>
     </section>
     <!-- Quiz End -->
 
@@ -114,7 +116,7 @@
             quizContent.options.forEach((option) => {
                 const button = document.createElement('button');
                 button.textContent = option;
-                button.classList = 'bg-slate-200 h-20 text-2xl font-bold hover:bg-slate-400 hover:text-white rounded-md';
+                button.classList = 'bg-slate-200 h-28 text-xl px-5 font-bold hover:bg-slate-400 hover:text-white rounded-md';
                 button.addEventListener('click', () => {
                     validateAnswer(button, option, quizContent.correctAnswer);
                 });
