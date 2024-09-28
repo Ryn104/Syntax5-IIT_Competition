@@ -1,61 +1,130 @@
 {
-    "RPL": {
-      "1": {
-        "question": "Apa itu OOP?",
-        "options": ["Object-Oriented Programming", "Open Office Protocol", "Online Operational Process", "Object Operation Protocol"],
-        "correctAnswer": "Object-Oriented Programming"
-      },
-      "2": {
-        "question": "Apa itu Polymorphism?",
-        "options": ["Kemampuan objek untuk berubah bentuk", "Penggunaan banyak database", "Menyatukan beberapa class", "Polarisasi objek dalam sistem"],
-        "correctAnswer": "Kemampuan objek untuk berubah bentuk"
-      },
-      "3": {
-        "question": "Apa itu Inheritance?",
-        "options": ["Penurunan sifat dari class induk", "Pewarisan hak akses pengguna", "Pengembangan sistem baru", "Menyimpan data secara lokal"],
-        "correctAnswer": "Penurunan sifat dari class induk"
-      },
-      "4": {
-        "question": "Apa itu Encapsulation?",
-        "options": ["Membungkus data dan fungsi dalam satu kesatuan", "Pengumpulan data dari server", "Menyimpan informasi dalam database", "Membatasi akses ke jaringan"],
-        "correctAnswer": "Membungkus data dan fungsi dalam satu kesatuan"
-      }
+  "RPL": {
+    "1": {
+      "question": "Apa yang dimaksud dengan algoritma?",
+      "options": [
+        "Bahasa pemrograman",
+        "Instruksi langkah demi langkah untuk memecahkan masalah",
+        "Struktur data",
+        "Sistem operasi"
+      ],
+      "correctAnswer": "Instruksi langkah demi langkah untuk memecahkan masalah"
     },
-    "Broadcasting": {
-      "1": {
-        "question": "Apa itu Penyiaran?",
-        "options": ["Proses mengirimkan sinyal", "Perekaman video", "Pengolahan sinyal audio", "Pengaturan naskah berita"],
-        "correctAnswer": "Proses mengirimkan sinyal"
-      },
-      "2": {
-        "question": "Apa itu Teknik Kamera?",
-        "options": ["Cara mengambil gambar video", "Proses editing video", "Menyusun naskah berita", "Menulis storyboard"],
-        "correctAnswer": "Cara mengambil gambar video"
-      }
+    "2": {
+      "question": "Apa itu variabel dalam pemrograman?",
+      "options": [
+        "Kode program yang tidak dapat diubah",
+        "Penampung nilai yang dapat berubah",
+        "Kumpulan data yang tidak berhubungan",
+        "Fungsi untuk mengolah data"
+      ],
+      "correctAnswer": "Penampung nilai yang dapat berubah"
     },
-    "TJKT": {
-      "1": {
-        "question": "Apa itu Jaringan Komputer?",
-        "options": ["Kumpulan komputer yang saling terhubung", "Sistem operasi pada komputer", "Protokol internet", "Perangkat keras komputer"],
-        "correctAnswer": "Kumpulan komputer yang saling terhubung"
-      },
-      "2": {
-        "question": "Apa itu IP Address?",
-        "options": ["Alamat unik pada jaringan komputer", "Alamat email pengguna", "Protokol keamanan internet", "Pengidentifikasi perangkat keras"],
-        "correctAnswer": "Alamat unik pada jaringan komputer"
-      }
+    "3": {
+      "question": "Bahasa pemrograman manakah yang umum digunakan untuk pengembangan web backend?",
+      "options": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP"
+      ],
+      "correctAnswer": "PHP"
     },
-    "TataBoga": {
-      "1": {
-        "question": "Apa itu Teknik Memasak?",
-        "options": ["Cara memasak makanan", "Pengaturan meja makan", "Menyajikan makanan", "Membersihkan dapur"],
-        "correctAnswer": "Cara memasak makanan"
-      },
-      "2": {
-        "question": "Apa itu Bumbu Dasar?",
-        "options": ["Bumbu utama dalam masakan", "Alat masak utama", "Teknik mengolah daging", "Proses menyajikan makanan"],
-        "correctAnswer": "Bumbu utama dalam masakan"
-      }
+    "4": {
+      "question": "Apa peran dari Framework dalam pengembangan perangkat lunak?",
+      "options": [
+        "Mengatur tampilan antarmuka",
+        "Mengatur pengolahan database",
+        "Memberikan struktur untuk pengembangan aplikasi",
+        "Mengatur keamanan sistem"
+      ],
+      "correctAnswer": "Memberikan struktur untuk pengembangan aplikasi"
+    },
+    "5": {
+      "question": "Apa itu debugging?",
+      "options": [
+        "Proses menguji perangkat lunak",
+        "Proses menulis kode program",
+        "Proses mencari dan memperbaiki kesalahan dalam kode",
+        "Proses mendesain UI"
+      ],
+      "correctAnswer": "Proses mencari dan memperbaiki kesalahan dalam kode"
+    },
+    "6": {
+      "question": "Metodologi pengembangan perangkat lunak manakah yang sering digunakan dalam pendekatan iteratif?",
+      "options": [
+        "Waterfall",
+        "Agile",
+        "V-Model",
+        "Prototyping"
+      ],
+      "correctAnswer": "Agile"
+    }
+  },
+  "Broadcasting": {
+    "1": {
+      "question": "Apa itu Penyiaran?",
+      "options": [
+        "Proses mengirimkan sinyal",
+        "Perekaman video",
+        "Pengolahan sinyal audio",
+        "Pengaturan naskah berita"
+      ],
+      "correctAnswer": "Proses mengirimkan sinyal"
+    },
+    "2": {
+      "question": "Apa itu Teknik Kamera?",
+      "options": [
+        "Cara mengambil gambar video",
+        "Proses editing video",
+        "Menyusun naskah berita",
+        "Menulis storyboard"
+      ],
+      "correctAnswer": "Cara mengambil gambar video"
+    }
+  },
+  "TJKT": {
+    "1": {
+      "question": "Apa itu Jaringan Komputer?",
+      "options": [
+        "Kumpulan komputer yang saling terhubung",
+        "Sistem operasi pada komputer",
+        "Protokol internet",
+        "Perangkat keras komputer"
+      ],
+      "correctAnswer": "Kumpulan komputer yang saling terhubung"
+    },
+    "2": {
+      "question": "Apa itu IP Address?",
+      "options": [
+        "Alamat unik pada jaringan komputer",
+        "Alamat email pengguna",
+        "Protokol keamanan internet",
+        "Pengidentifikasi perangkat keras"
+      ],
+      "correctAnswer": "Alamat unik pada jaringan komputer"
+    }
+  },
+  "TataBoga": {
+    "1": {
+      "question": "Apa itu Teknik Memasak?",
+      "options": [
+        "Cara memasak makanan",
+        "Pengaturan meja makan",
+        "Menyajikan makanan",
+        "Membersihkan dapur"
+      ],
+      "correctAnswer": "Cara memasak makanan"
+    },
+    "2": {
+      "question": "Apa itu Bumbu Dasar?",
+      "options": [
+        "Bumbu utama dalam masakan",
+        "Alat masak utama",
+        "Teknik mengolah daging",
+        "Proses menyajikan makanan"
+      ],
+      "correctAnswer": "Bumbu utama dalam masakan"
     }
   }
-  
+}
