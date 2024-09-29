@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,90 +8,85 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@1.14.1/dist/full.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" /> 
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body class="bg-base-200">
 
-     <!-- NavBar -->
-     <div class="navbar bg-base-100 z-40 2xl:py-6 2xl:px-36">
-        <div class="navbar-start">
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h8m-8 6h16" />
-                    </svg>
-                </div>
-                <ul tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    <li><a href="pages/kursus.html">Kursus</a></li>
-                    <li><a href="pages/quiz.html">Quiz</a></li>
-                    <li><a href="pages/komunitas.html">Komunitas</a></li>
-                    <li><a href="pages/tentangkami.html">Tentang Kami</a></li>
-                    <li><a href="pages/">Langganan</a></li>
-                </ul>
-            </div>
-            <a class="btn btn-ghost text-xl 2xl:text-3xl">EduBook</a>
+  <!-- NavBar -->
+  <div class="navbar bg-base-100 fixed z-40 2xl:py-6 2xl:px-36">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
         </div>
-        <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-                <li><a class="2xl:text-xl" href="pages/kursus.html">Kursus</a></li>
-                <li><a class="2xl:text-xl" href="pages/quiz.html">Quiz</a></li>
-                <li><a class="2xl:text-xl" href="pages/komunitas.html">Komunitas</a></li>
-                <li><a class="2xl:text-xl" href="pages/tentangkami.html">Tentang Kami</a></li>
-                <li><a class="2xl:text-xl" href="pages/">Langganan</a></li>
-            </ul>
-        </div>
-        <div class="navbar-end">
-            <a class="btn bg-[#FF9500] text-white 2xl:text-xl 2xl:w-32">Sig in</a>
-        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li><a href="/pages/kursus.html">Kursus</a></li>
+          <li><a href="/pages/quiz.html">Quiz</a></li>
+          <li><a href="/pages/komunitas.html">Komunitas</a></li>
+          <li><a href="/pages/tentangkami.html">Tentang Kami</a></li>
+          <li><a href="">Langganan</a></li>
+        </ul>
+      </div>
+      <a class="btn btn-ghost text-xl 2xl:text-3xl" href="/index.html">EduLearn</a>
     </div>
-    <!-- End NavBar -->
-
-    <header class="p-4 bg-base-100 shadow-md">
-        <h1 class="text-2xl font-bold">Diskusi: Teknik Memasak Sehat</h1>
-    </header>
-
-    <main class="container mx-auto p-4">
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a class="2xl:text-xl" href="/pages/kursus.html">Kursus</a></li>
+        <li><a class="2xl:text-xl" href="/pages/quiz.html">Quiz</a></li>
+        <li><a class="2xl:text-xl" href="/pages/komunitas.html">Komunitas</a></li>
+        <li><a class="2xl:text-xl" href="/pages/tentangkami.html">Tentang Kami</a></li>
+        <li><a class="2xl:text-xl" href="">Langganan</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <a class="btn bg-[#FF9500] text-white 2xl:text-xl 2xl:w-32">Sig in</a>
+    </div>
+  </div>
+  <!-- End NavBar -->
+    
+    <main class="container mx-auto p-4 md:pt-24 2xl:pt-40">
+        <h1 class="text-2xl md:text-3xl 2xl:text-4xl font-bold">Diskusi: Seberapa Efektif EduLearn?</h1>
         <section class="mb-6">
-            <h2 class="text-xl font-semibold">Isi Diskusi</h2>
-            <p>Ada rekomendasi resep sehat untuk pemula?</p>
+            <h2 class="text-xl md:text-2xl 2xl:text-3xl font-semibold">Isi Diskusi</h2>
+            <p class="md:text-2xl 2xl:text-3xl">Ada rekomendasi kursus yang diambil buat kelas 100?</p>
         </section>
 
         <section class="mb-6">
-            <h2 class="text-xl font-semibold">Komentar</h2>
+            <h2 class="text-xl font-semibold md:text-2xl 2xl:text-3xl">Komentar</h2>
             <div class="mt-4">
                 <div class="card bg-base-100 shadow-md mb-4">
                     <div class="card-body">
-                        <h3 class="card-title">Rina Sari</h3>
-                        <p>Saya merekomendasikan resep salad quinoa. Sangat mudah dan sehat!</p>
+                        <h3 class="card-title md:text-2xl 2xl:text-3xl">Rina Sari</h3>
+                        <p class="md:text-xl 2xl:text-2xl">Saya merekomendasikan kursus berbeda. Sangat mudah dan seru!</p>
                     </div>
                 </div>
                 <div class="card bg-base-100 shadow-md mb-4">
                     <div class="card-body">
-                        <h3 class="card-title">Budi Santoso</h3>
-                        <p>Cobalah membuat smoothie hijau! Ini cepat dan penuh nutrisi.</p>
+                        <h3 class="card-title md:text-2xl 2xl:text-3xl">Budi Santoso</h3>
+                        <p class="md:text-xl 2xl:text-2xl">Cobalah membuat portfolio ! Ini cepat dan membantumu.</p>
                     </div>
                 </div>
                 <div class="card bg-base-100 shadow-md mb-4">
                     <div class="card-body">
-                        <h3 class="card-title">Anita Pratiwi</h3>
-                        <p>Saya suka membuat omelet sayur! Resepnya sangat mudah diikuti.</p>
+                        <h3 class="card-title md:text-2xl 2xl:text-3xl">Anita Pratiwi</h3>
+                        <p class="md:text-xl 2xl:text-2xl">Saya suka membuat website! Kursusnya mudah.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <section>
-            <h2 class="text-xl font-semibold">Tambahkan Komentar</h2>
+            <h2 class="text-xl font-semibold md:text-2xl 2xl:text-3xl">Tambahkan Komentar</h2>
             <form class="mt-4">
                 <div class="form-control mb-4">
                     <label class="label">
-                        <span class="label-text">Komentar Anda</span>
+                        <span class="label-text md:text-2xl 2xl:text-3xl">Komentar Anda</span>
                     </label>
                     <textarea placeholder="Masukkan komentar" class="textarea textarea-bordered" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-accent">Kirim Komentar</button>
+                <button type="submit" class="btn bg-[#FF9500] text-white">Kirim Komentar</button>
             </form>
         </section>
     </main>

@@ -63,68 +63,750 @@
   },
   "Broadcasting": {
     "1": {
-      "question": "Apa itu Penyiaran?",
+      "question": "Apa fungsi dari switcher dalam produksi televisi?",
       "options": [
-        "Proses mengirimkan sinyal",
-        "Perekaman video",
-        "Pengolahan sinyal audio",
-        "Pengaturan naskah berita"
+        "Menambah efek suara",
+        "Mengubah tampilan gambar secara langsung",
+        "Merekam video",
+        "Memproses suara dari mikrofon"
       ],
-      "correctAnswer": "Proses mengirimkan sinyal"
+      "correctAnswer": "Mengubah tampilan gambar secara langsung"
     },
     "2": {
-      "question": "Apa itu Teknik Kamera?",
+      "question": "Apa yang dimaksud dengan framing dalam teknik pengambilan gambar?",
       "options": [
-        "Cara mengambil gambar video",
-        "Proses editing video",
-        "Menyusun naskah berita",
-        "Menulis storyboard"
+        "Menyusun cerita",
+        "Menyusun pencahayaan",
+        "Menentukan batasan dalam gambar",
+        "Menentukan waktu tayang"
       ],
-      "correctAnswer": "Cara mengambil gambar video"
+      "correctAnswer": "Menentukan batasan dalam gambar"
+    },
+    "3": {
+      "question": "Jenis mikrofon yang paling sensitif terhadap suara dari satu arah adalah...",
+      "options": [
+        "Mikrofon omnidirectional",
+        "Mikrofon bidirectional",
+        "Mikrofon cardioid",
+        "Mikrofon dynamic"
+      ],
+      "correctAnswer": "Mikrofon cardioid"
+    },
+    "4": {
+      "question": "Apa kepanjangan dari istilah HD pada video?",
+      "options": [
+        "High Density",
+        "High Depth",
+        "High Definition",
+        "High Display"
+      ],
+      "correctAnswer": "High Definition"
+    },
+    "5": {
+      "question": "Apa yang dimaksud dengan B-roll dalam produksi video?",
+      "options": [
+        "Cuplikan tambahan untuk mendukung cerita",
+        "Gambar utama dalam produksi video",
+        "Efek visual dalam video",
+        "Musik latar dalam video"
+      ],
+      "correctAnswer": "Cuplikan tambahan untuk mendukung cerita"
+    },
+    "6": {
+      "question": "Software yang sering digunakan untuk editing video adalah...",
+      "options": [
+        "Adobe Premiere",
+        "Microsoft Word",
+        "AutoCAD",
+        "CorelDRAW"
+      ],
+      "correctAnswer": "Adobe Premiere"
     }
   },
   "TJKT": {
     "1": {
-      "question": "Apa itu Jaringan Komputer?",
+      "question": "Apa fungsi dari Router dalam jaringan komputer?",
       "options": [
-        "Kumpulan komputer yang saling terhubung",
-        "Sistem operasi pada komputer",
-        "Protokol internet",
-        "Perangkat keras komputer"
+        "Menerjemahkan IP address",
+        "Menghubungkan beberapa jaringan berbeda",
+        "Mengelola aliran data pada jaringan lokal",
+        "Mengubah sinyal analog menjadi digital"
       ],
-      "correctAnswer": "Kumpulan komputer yang saling terhubung"
+      "correctAnswer": "Menghubungkan beberapa jaringan berbeda"
     },
     "2": {
-      "question": "Apa itu IP Address?",
+      "question": "Apa yang dimaksud dengan topologi bintang (Star Topology)?",
       "options": [
-        "Alamat unik pada jaringan komputer",
-        "Alamat email pengguna",
-        "Protokol keamanan internet",
-        "Pengidentifikasi perangkat keras"
+        "Semua komputer terhubung ke satu kabel utama",
+        "Semua komputer terhubung secara melingkar",
+        "Semua komputer terhubung ke switch atau hub",
+        "Semua komputer terhubung secara langsung ke satu sama lain"
       ],
-      "correctAnswer": "Alamat unik pada jaringan komputer"
+      "correctAnswer": "Semua komputer terhubung ke switch atau hub"
+    },
+    "3": {
+      "question": "Perangkat yang berfungsi untuk memperkuat sinyal pada jaringan adalah...",
+      "options": [
+        "Repeater",
+        "Hub",
+        "Router",
+        "Switch"
+      ],
+      "correctAnswer": "Repeater"
+    },
+    "4": {
+      "question": "Apa protokol yang digunakan untuk mengakses web server secara aman?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "correctAnswer": "HTTPS"
+    },
+    "5": {
+      "question": "Apa fungsi dari DHCP dalam jaringan?",
+      "options": [
+        "Mengatur alokasi bandwidth",
+        "Mengelola sistem keamanan jaringan",
+        "Memberikan IP address secara otomatis",
+        "Mengatur jalur komunikasi data"
+      ],
+      "correctAnswer": "Memberikan IP address secara otomatis"
+    },
+    "6": {
+      "question": "Apa kepanjangan dari LAN?",
+      "options": [
+        "Local Access Network",
+        "Local Area Network",
+        "Local Address Network",
+        "Large Area Network"
+      ],
+      "correctAnswer": "Local Area Network"
     }
   },
   "TataBoga": {
     "1": {
-      "question": "Apa itu Teknik Memasak?",
+      "question": "Apa yang dimaksud dengan mise en place dalam dunia kuliner?",
       "options": [
-        "Cara memasak makanan",
-        "Pengaturan meja makan",
-        "Menyajikan makanan",
-        "Membersihkan dapur"
+        "Pengolahan bahan makanan",
+        "Penyajian hidangan",
+        "Persiapan bahan sebelum memasak",
+        "Teknik memasak dengan api besar"
       ],
-      "correctAnswer": "Cara memasak makanan"
+      "correctAnswer": "Persiapan bahan sebelum memasak"
     },
     "2": {
-      "question": "Apa itu Bumbu Dasar?",
+      "question": "Alat yang digunakan untuk mengukur suhu dalam makanan adalah...",
       "options": [
-        "Bumbu utama dalam masakan",
-        "Alat masak utama",
-        "Teknik mengolah daging",
-        "Proses menyajikan makanan"
+        "Oven",
+        "Kompor",
+        "Termometer",
+        "Spatula"
       ],
-      "correctAnswer": "Bumbu utama dalam masakan"
+      "correctAnswer": "Termometer"
+    },
+    "3": {
+      "question": "Apa fungsi dari blanching dalam teknik memasak?",
+      "options": [
+        "Menggoreng bahan makanan",
+        "Mengukus bahan makanan",
+        "Merebus bahan makanan sebentar dan langsung mendinginkannya",
+        "Memanggang bahan makanan"
+      ],
+      "correctAnswer": "Merebus bahan makanan sebentar dan langsung mendinginkannya"
+    },
+    "4": {
+      "question": "Jenis bahan pengental yang biasa digunakan dalam sup adalah...",
+      "options": [
+        "Garam",
+        "Gula",
+        "Tepung maizena",
+        "Minyak zaitun"
+      ],
+      "correctAnswer": "Tepung maizena"
+    },
+    "5": {
+      "question": "Apa itu julienne dalam teknik memotong?",
+      "options": [
+        "Memotong bahan berbentuk kotak kecil",
+        "Memotong bahan menjadi bentuk tipis dan panjang",
+        "Menghancurkan bahan menjadi bubuk",
+        "Memotong bahan menjadi bulatan besar"
+      ],
+      "correctAnswer": "Memotong bahan menjadi bentuk tipis dan panjang"
+    },
+    "6": {
+      "question": "Proses pengawetan makanan menggunakan garam disebut...",
+      "options": [
+        "Fermentasi",
+        "Blanching",
+        "Marinasi",
+        "Pengasinan"
+      ],
+      "correctAnswer": "Pengasinan"
     }
+  },
+  "Geomatika": {
+    "1": {
+      "question": "Apa itu GPS?",
+      "options": [
+        "Sistem penentuan lokasi menggunakan satelit",
+        "Sistem untuk mengukur suhu udara",
+        "Sistem pengaturan cuaca",
+        "Sistem pemetaan digital"
+      ],
+      "correctAnswer": "Sistem penentuan lokasi menggunakan satelit"
+    },
+    "2": {
+      "question": "Apa itu teodolit?",
+      "options": [
+        "Alat untuk mengukur kedalaman laut",
+        "Alat untuk mengukur sudut horizontal dan vertikal",
+        "Alat untuk memetakan wilayah",
+        "Alat untuk mengukur suhu tanah"
+      ],
+      "correctAnswer": "Alat untuk mengukur sudut horizontal dan vertikal"
+    },
+    "3": {
+      "question": "Apa yang dimaksud dengan SIG (Sistem Informasi Geografis)?",
+      "options": [
+        "Sistem untuk mengatur jaringan internet",
+        "Sistem untuk menampilkan peta digital",
+        "Sistem untuk mengumpulkan, menganalisis, dan menyajikan data geografis",
+        "Sistem untuk memprediksi cuaca"
+      ],
+      "correctAnswer": "Sistem untuk mengumpulkan, menganalisis, dan menyajikan data geografis"
+    },
+    "4": {
+      "question": "Metode survei yang menggunakan gelombang suara untuk mengukur kedalaman laut disebut...",
+      "options": [
+        "Fotogrametri",
+        "LIDAR",
+        "Sonar",
+        "Satelit"
+      ],
+      "correctAnswer": "Sonar"
+    },
+    "5": {
+      "question": "Jenis peta yang menggambarkan relief atau elevasi suatu daerah adalah...",
+      "options": [
+        "Peta topografi",
+        "Peta tematik",
+        "Peta politik",
+        "Peta iklim"
+      ],
+      "correctAnswer": "Peta topografi"
+    },
+    "6": {
+      "question": "Apa itu LIDAR?",
+      "options": [
+        "Teknologi penginderaan jauh menggunakan laser",
+        "Teknologi untuk mengukur suhu udara",
+        "Teknologi untuk memetakan wilayah menggunakan gelombang suara",
+        "Teknologi pemetaan menggunakan satelit"
+      ],
+      "correctAnswer": "Teknologi penginderaan jauh menggunakan laser"
+    }
+  },
+  "KimiaAnalisis": {
+    "1": {
+      "question": "Apa itu titrasi?",
+      "options": [
+        "Metode pemisahan zat berdasarkan perbedaan kelarutan",
+        "Proses menambahkan larutan ke dalam larutan lain hingga reaksi selesai",
+        "Teknik untuk memisahkan campuran berdasarkan titik didih",
+        "Proses identifikasi unsur kimia dengan spektrometer"
+      ],
+      "correctAnswer": "Proses menambahkan larutan ke dalam larutan lain hingga reaksi selesai"
+    },
+    "2": {
+      "question": "Apa alat yang digunakan untuk mengukur pH larutan?",
+      "options": [
+        "Termometer",
+        "Spektrofotometer",
+        "pH meter",
+        "Refraktometer"
+      ],
+      "correctAnswer": "pH meter"
+    },
+    "3": {
+      "question": "Apa fungsi dari spektrofotometer dalam analisis kimia?",
+      "options": [
+        "Mengukur suhu reaksi",
+        "Mengukur konsentrasi zat berdasarkan absorpsi cahaya",
+        "Menganalisis komponen gas",
+        "Mengukur tekanan dalam larutan"
+      ],
+      "correctAnswer": "Mengukur konsentrasi zat berdasarkan absorpsi cahaya"
+    },
+    "4": {
+      "question": "Metode pemisahan zat berdasarkan perbedaan titik didih disebut...",
+      "options": [
+        "Distilasi",
+        "Ekstraksi",
+        "Kromatografi",
+        "Titrasi"
+      ],
+      "correctAnswer": "Distilasi"
+    },
+    "5": {
+      "question": "Apa itu kromatografi?",
+      "options": [
+        "Teknik pemisahan zat berdasarkan perbedaan ukuran molekul",
+        "Teknik pemisahan zat berdasarkan perbedaan kelarutan",
+        "Teknik pemisahan zat berdasarkan warna",
+        "Teknik pemisahan zat berdasarkan perbedaan mobilitas di fase diam dan fase gerak"
+      ],
+      "correctAnswer": "Teknik pemisahan zat berdasarkan perbedaan mobilitas di fase diam dan fase gerak"
+    },
+    "6": {
+      "question": "Apa yang dimaksud dengan larutan standar dalam titrasi?",
+      "options": [
+        "Larutan dengan konsentrasi yang sudah diketahui",
+        "Larutan yang belum diketahui konsentrasinya",
+        "Larutan yang digunakan untuk mencuci peralatan laboratorium",
+        "Larutan yang tidak bereaksi dalam proses titrasi"
+      ],
+      "correctAnswer": "Larutan dengan konsentrasi yang sudah diketahui"
+    }
+  },
+  "Matematika": {
+    "1": {
+      "question": "Apa hasil dari 12 x 8?",
+      "options": [
+        "96",
+        "88",
+        "104",
+        "92"
+      ],
+      "correctAnswer": "96"
+    },
+    "2": {
+      "question": "Apa rumus untuk menghitung luas lingkaran?",
+      "options": [
+        "πr^2",
+        "2πr",
+        "πd",
+        "r^2 + π"
+      ],
+      "correctAnswer": "πr^2"
+    },
+    "3": {
+      "question": "Jika sebuah segitiga memiliki alas 10 cm dan tinggi 5 cm, berapa luasnya?",
+      "options": [
+        "50 cm²",
+        "25 cm²",
+        "30 cm²",
+        "20 cm²"
+      ],
+      "correctAnswer": "25 cm²"
+    },
+    "4": {
+      "question": "Berapa hasil dari 144 ÷ 12?",
+      "options": [
+        "12",
+        "10",
+        "15",
+        "18"
+      ],
+      "correctAnswer": "12"
+    },
+    "5": {
+      "question": "Apa rumus untuk menghitung keliling persegi panjang?",
+      "options": [
+        "2 x (panjang + lebar)",
+        "panjang x lebar",
+        "2 x panjang x lebar",
+        "panjang + lebar"
+      ],
+      "correctAnswer": "2 x (panjang + lebar)"
+    },
+    "6": {
+      "question": "Apa itu bilangan prima?",
+      "options": [
+        "Bilangan yang hanya bisa dibagi oleh 1 dan dirinya sendiri",
+        "Bilangan genap",
+        "Bilangan yang habis dibagi 2",
+        "Bilangan yang hasil pembagiannya nol"
+      ],
+      "correctAnswer": "Bilangan yang hanya bisa dibagi oleh 1 dan dirinya sendiri"
+    }
+  },
+  "BahasaIndonesia": {
+    "1": {
+      "question": "Apa itu antonim?",
+      "options": [
+        "Kata dengan makna berlawanan",
+        "Kata dengan makna yang sama",
+        "Kata yang tidak bermakna",
+        "Kata yang sulit diucapkan"
+      ],
+      "correctAnswer": "Kata dengan makna berlawanan"
+    },
+    "2": {
+      "question": "Kalimat manakah yang menggunakan kata baku?",
+      "options": [
+        "Saya sedang mengantri tiket",
+        "Dia sedang menulis surat",
+        "Kita akan berangkat jam 5",
+        "Mereka lagi makan siang"
+      ],
+      "correctAnswer": "Dia sedang menulis surat"
+    },
+    "3": {
+      "question": "Bagaimana struktur teks narasi?",
+      "options": [
+        "Orientasi, komplikasi, resolusi",
+        "Tujuan, permasalahan, penutup",
+        "Pendahuluan, argumentasi, kesimpulan",
+        "Topik, penjelasan, kesimpulan"
+      ],
+      "correctAnswer": "Orientasi, komplikasi, resolusi"
+    },
+    "4": {
+      "question": "Apa sinonim dari kata 'adil'?",
+      "options": [
+        "Jujur",
+        "Bijaksana",
+        "Netral",
+        "Seimbang"
+      ],
+      "correctAnswer": "Netral"
+    },
+    "5": {
+      "question": "Jenis teks yang berfungsi memberikan informasi tentang suatu peristiwa disebut...",
+      "options": [
+        "Teks deskripsi",
+        "Teks eksposisi",
+        "Teks narasi",
+        "Teks berita"
+      ],
+      "correctAnswer": "Teks berita"
+    },
+    "6": {
+      "question": "Kata depan 'di' dipisah jika...",
+      "options": [
+        "Diikuti kata benda",
+        "Diikuti kata kerja",
+        "Diikuti kata sifat",
+        "Diikuti kata keterangan"
+      ],
+      "correctAnswer": "Diikuti kata kerja"
+    }
+  },
+  "Sejarah": {
+    "1": {
+      "question": "Siapakah yang memproklamasikan kemerdekaan Indonesia?",
+      "options": [
+        "Ir. Soekarno dan Moh. Hatta",
+        "Bung Tomo",
+        "Sutan Sjahrir",
+        "Soeharto"
+      ],
+      "correctAnswer": "Ir. Soekarno dan Moh. Hatta"
+    },
+    "2": {
+      "question": "Kapan peristiwa Sumpah Pemuda terjadi?",
+      "options": [
+        "28 Oktober 1928",
+        "17 Agustus 1945",
+        "10 November 1945",
+        "21 April 1908"
+      ],
+      "correctAnswer": "28 Oktober 1928"
+    },
+    "3": {
+      "question": "Kerajaan Hindu tertua di Indonesia adalah...",
+      "options": [
+        "Kutai",
+        "Majapahit",
+        "Sriwijaya",
+        "Singasari"
+      ],
+      "correctAnswer": "Kutai"
+    },
+    "4": {
+      "question": "Siapakah pendiri Kerajaan Majapahit?",
+      "options": [
+        "Raden Wijaya",
+        "Gajah Mada",
+        "Hayam Wuruk",
+        "Kertanegara"
+      ],
+      "correctAnswer": "Raden Wijaya"
+    },
+    "5": {
+      "question": "Perang Diponegoro berlangsung pada tahun...",
+      "options": [
+        "1825-1830",
+        "1945-1949",
+        "1815-1820",
+        "1905-1910"
+      ],
+      "correctAnswer": "1825-1830"
+    },
+    "6": {
+      "question": "Peristiwa G30S/PKI terjadi pada tahun...",
+      "options": [
+        "1965",
+        "1945",
+        "1950",
+        "1970"
+      ],
+      "correctAnswer": "1965"
+    }
+  },
+  "PPKn": {
+    "1": {
+      "question": "Apa yang dimaksud dengan Pancasila?",
+      "options": [
+        "Dasar negara Indonesia",
+        "Undang-undang dasar",
+        "Proklamasi kemerdekaan",
+        "Semboyan negara"
+      ],
+      "correctAnswer": "Dasar negara Indonesia"
+    },
+    "2": {
+      "question": "Sila ke-2 Pancasila berbunyi...",
+      "options": [
+        "Kemanusiaan yang adil dan beradab",
+        "Persatuan Indonesia",
+        "Ketuhanan Yang Maha Esa",
+        "Keadilan sosial bagi seluruh rakyat Indonesia"
+      ],
+      "correctAnswer": "Kemanusiaan yang adil dan beradab"
+    },
+    "3": {
+      "question": "Apa yang dimaksud dengan Bhineka Tunggal Ika?",
+      "options": [
+        "Berbeda-beda tetapi tetap satu",
+        "Bersatu dalam perbedaan",
+        "Perbedaan adalah kekuatan",
+        "Keanekaragaman budaya Indonesia"
+      ],
+      "correctAnswer": "Berbeda-beda tetapi tetap satu"
+    },
+    "4": {
+      "question": "Lambang negara Indonesia adalah...",
+      "options": [
+        "Garuda Pancasila",
+        "Merah Putih",
+        "Bintang",
+        "Keris"
+      ],
+      "correctAnswer": "Garuda Pancasila"
+    },
+    "5": {
+      "question": "Siapakah yang merumuskan teks Pancasila?",
+      "options": [
+        "Ir. Soekarno",
+        "Moh. Hatta",
+        "Ahmad Subarjo",
+        "Moh. Yamin"
+      ],
+      "correctAnswer": "Ir. Soekarno"
+    },
+    "6": {
+      "question": "Sistem pemerintahan yang dianut oleh Indonesia adalah...",
+      "options": [
+        "Republik",
+        "Monarki",
+        "Oligarki",
+        "Feodalisme"
+      ],
+      "correctAnswer": "Republik"
+    }
+  },
+  "IPA": {
+    "1": {
+      "question": "Apa yang dimaksud dengan fotosintesis?",
+      "options": [
+        "Proses tumbuhan membuat makanan",
+        "Proses respirasi pada manusia",
+        "Proses penguraian zat oleh mikroba",
+        "Proses pembakaran oksigen dalam tubuh"
+      ],
+      "correctAnswer": "Proses tumbuhan membuat makanan"
+    },
+    "2": {
+      "question": "Planet terdekat dengan matahari adalah...",
+      "options": [
+        "Merkurius",
+        "Venus",
+        "Bumi",
+        "Mars"
+      ],
+      "correctAnswer": "Merkurius"
+    },
+    "3": {
+      "question": "Bagian sel yang mengatur seluruh aktivitas sel adalah...",
+      "options": [
+        "Nukleus",
+        "Mitokondria",
+        "Ribosom",
+        "Sitoplasma"
+      ],
+      "correctAnswer": "Nukleus"
+    },
+    "4": {
+      "question": "Zat yang tidak bisa diuraikan lagi menjadi zat yang lebih sederhana disebut...",
+      "options": [
+        "Unsur",
+        "Senyawa",
+        "Campuran",
+        "Ion"
+      ],
+      "correctAnswer": "Unsur"
+    },
+    "5": {
+      "question": "Alat ukur yang digunakan untuk mengukur massa benda adalah...",
+      "options": [
+        "Timbangan",
+        "Termometer",
+        "Penggaris",
+        "Barometer"
+      ],
+      "correctAnswer": "Timbangan"
+    },
+    "6": {
+      "question": "Hewan yang termasuk dalam kelompok mamalia adalah...",
+      "options": [
+        "Gajah",
+        "Ular",
+        "Burung",
+        "Ikan"
+      ],
+      "correctAnswer": "Gajah"
+    }
+  },
+  "BahasaInggris": {
+    "1": {
+      "question": "What is the meaning of 'apple'?",
+      "options": [
+        "Pisang",
+        "Apel",
+        "Jeruk",
+        "Anggur"
+      ],
+      "correctAnswer": "Apel"
+    },
+    "2": {
+      "question": "Choose the correct past tense of 'go'.",
+      "options": [
+        "Gone",
+        "Goes",
+        "Went",
+        "Going"
+      ],
+      "correctAnswer": "Went"
+    },
+    "3": {
+      "question": "What is the opposite of 'big'?",
+      "options": [
+        "Small",
+        "Tall",
+        "Wide",
+        "Thick"
+      ],
+      "correctAnswer": "Small"
+    },
+    "4": {
+      "question": "The word 'blue' refers to a...",
+      "options": [
+        "Color",
+        "Animal",
+        "Place",
+        "Fruit"
+      ],
+      "correctAnswer": "Color"
+    },
+    "5": {
+      "question": "Which one is a synonym of 'happy'?",
+      "options": [
+        "Sad",
+        "Joyful",
+        "Angry",
+        "Confused"
+      ],
+      "correctAnswer": "Joyful"
+    },
+    "6": {
+      "question": "Complete the sentence: 'I ___ a book yesterday.'",
+      "options": [
+        "Read",
+        "Reads",
+        "Reading",
+        "Will read"
+      ],
+      "correctAnswer": "Read"
+    }
+  },
+  "DPIB": {
+  "1": {
+    "question": "Apa yang dimaksud dengan denah bangunan?",
+    "options": ["Gambaran dari bentuk atap", "Gambaran tampak samping bangunan", "Gambaran dari susunan ruang dalam bangunan", "Gambaran struktur pondasi"],
+    "correctAnswer": "Gambaran dari susunan ruang dalam bangunan"
+  },
+  "2": {
+    "question": "Sistem bangunan yang menggunakan kolom dan balok untuk menahan beban disebut...",
+    "options": ["Sistem rangka", "Sistem dinding", "Sistem lantai", "Sistem pondasi"],
+    "correctAnswer": "Sistem rangka"
+  },
+  "3": {
+    "question": "Software yang sering digunakan untuk membuat model 3D bangunan adalah...",
+    "options": ["AutoCAD", "Photoshop", "Microsoft Word", "CorelDRAW"],
+    "correctAnswer": "AutoCAD"
+  },
+  "4": {
+    "question": "Apa fungsi dari pondasi dalam konstruksi bangunan?",
+    "options": ["Menahan beban bangunan", "Membentuk desain atap", "Membuat tampilan estetika", "Membuat dinding lebih kuat"],
+    "correctAnswer": "Menahan beban bangunan"
+  },
+  "5": {
+    "question": "Gambar proyeksi yang menunjukkan tampak depan bangunan disebut...",
+    "options": ["Denah", "Potongan", "Tampak", "Perspektif"],
+    "correctAnswer": "Tampak"
+  },
+  "6": {
+    "question": "Bahan bangunan yang paling umum digunakan untuk struktur utama bangunan adalah...",
+    "options": ["Besi", "Bata", "Kayu", "Beton"],
+    "correctAnswer": "Beton"
   }
+},
+"DKV": {
+  "1": {
+    "question": "Apa yang dimaksud dengan desain grafis?",
+    "options": ["Proses menggambar manual", "Seni mengatur teks dan gambar untuk komunikasi visual", "Teknik fotografi", "Membuat film animasi"],
+    "correctAnswer": "Seni mengatur teks dan gambar untuk komunikasi visual"
+  },
+  "2": {
+    "question": "Prinsip utama dalam teori warna yang digunakan dalam desain grafis adalah...",
+    "options": ["RGB dan CMYK", "Red dan Blue", "Bright dan Dark", "Warm dan Cool"],
+    "correctAnswer": "RGB dan CMYK"
+  },
+  "3": {
+    "question": "Software yang paling umum digunakan untuk desain vektor adalah...",
+    "options": ["Adobe Illustrator", "Adobe Photoshop", "CorelDRAW", "SketchUp"],
+    "correctAnswer": "Adobe Illustrator"
+  },
+  "4": {
+    "question": "Dalam desain tipografi, istilah 'serif' mengacu pada...",
+    "options": ["Hiasan kecil pada ujung huruf", "Ukuran huruf", "Jarak antar karakter", "Tebal tipisnya huruf"],
+    "correctAnswer": "Hiasan kecil pada ujung huruf"
+  },
+  "5": {
+    "question": "Apa tujuan utama dari desain komunikasi visual?",
+    "options": ["Menarik perhatian dengan gambar", "Menyampaikan pesan secara efektif melalui elemen visual", "Membuat desain yang indah", "Membuat poster yang menarik"],
+    "correctAnswer": "Menyampaikan pesan secara efektif melalui elemen visual"
+  },
+  "6": {
+    "question": "Elemen utama dalam desain komunikasi visual adalah...",
+    "options": ["Garis, warna, teks, dan gambar", "Audio, video, dan teks", "Layout, website, dan banner", "Fotografi, lukisan, dan patung"],
+    "correctAnswer": "Garis, warna, teks, dan gambar"
+  }
+}
+
+
 }
