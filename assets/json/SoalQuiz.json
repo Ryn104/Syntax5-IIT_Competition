@@ -744,69 +744,189 @@
     }
   },
   "DPIB": {
-  "1": {
-    "question": "Apa yang dimaksud dengan denah bangunan?",
-    "options": ["Gambaran dari bentuk atap", "Gambaran tampak samping bangunan", "Gambaran dari susunan ruang dalam bangunan", "Gambaran struktur pondasi"],
-    "correctAnswer": "Gambaran dari susunan ruang dalam bangunan"
+    "1": {
+      "question": "Apa yang dimaksud dengan denah bangunan?",
+      "options": [
+        "Gambaran dari bentuk atap",
+        "Gambaran tampak samping bangunan",
+        "Gambaran dari susunan ruang dalam bangunan",
+        "Gambaran struktur pondasi"
+      ],
+      "correctAnswer": "Gambaran dari susunan ruang dalam bangunan"
+    },
+    "2": {
+      "question": "Sistem bangunan yang menggunakan kolom dan balok untuk menahan beban disebut...",
+      "options": [
+        "Sistem rangka",
+        "Sistem dinding",
+        "Sistem lantai",
+        "Sistem pondasi"
+      ],
+      "correctAnswer": "Sistem rangka"
+    },
+    "3": {
+      "question": "Software yang sering digunakan untuk membuat model 3D bangunan adalah...",
+      "options": [
+        "AutoCAD",
+        "Photoshop",
+        "Microsoft Word",
+        "CorelDRAW"
+      ],
+      "correctAnswer": "AutoCAD"
+    },
+    "4": {
+      "question": "Apa fungsi dari pondasi dalam konstruksi bangunan?",
+      "options": [
+        "Menahan beban bangunan",
+        "Membentuk desain atap",
+        "Membuat tampilan estetika",
+        "Membuat dinding lebih kuat"
+      ],
+      "correctAnswer": "Menahan beban bangunan"
+    },
+    "5": {
+      "question": "Gambar proyeksi yang menunjukkan tampak depan bangunan disebut...",
+      "options": [
+        "Denah",
+        "Potongan",
+        "Tampak",
+        "Perspektif"
+      ],
+      "correctAnswer": "Tampak"
+    },
+    "6": {
+      "question": "Bahan bangunan yang paling umum digunakan untuk struktur utama bangunan adalah...",
+      "options": [
+        "Besi",
+        "Bata",
+        "Kayu",
+        "Beton"
+      ],
+      "correctAnswer": "Beton"
+    }
   },
-  "2": {
-    "question": "Sistem bangunan yang menggunakan kolom dan balok untuk menahan beban disebut...",
-    "options": ["Sistem rangka", "Sistem dinding", "Sistem lantai", "Sistem pondasi"],
-    "correctAnswer": "Sistem rangka"
+  "DKV": {
+    "1": {
+      "question": "Apa yang dimaksud dengan desain grafis?",
+      "options": [
+        "Proses menggambar manual",
+        "Seni mengatur teks dan gambar untuk komunikasi visual",
+        "Teknik fotografi",
+        "Membuat film animasi"
+      ],
+      "correctAnswer": "Seni mengatur teks dan gambar untuk komunikasi visual"
+    },
+    "2": {
+      "question": "Prinsip utama dalam teori warna yang digunakan dalam desain grafis adalah...",
+      "options": [
+        "RGB dan CMYK",
+        "Red dan Blue",
+        "Bright dan Dark",
+        "Warm dan Cool"
+      ],
+      "correctAnswer": "RGB dan CMYK"
+    },
+    "3": {
+      "question": "Software yang paling umum digunakan untuk desain vektor adalah...",
+      "options": [
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "CorelDRAW",
+        "SketchUp"
+      ],
+      "correctAnswer": "Adobe Illustrator"
+    },
+    "4": {
+      "question": "Dalam desain tipografi, istilah 'serif' mengacu pada...",
+      "options": [
+        "Hiasan kecil pada ujung huruf",
+        "Ukuran huruf",
+        "Jarak antar karakter",
+        "Tebal tipisnya huruf"
+      ],
+      "correctAnswer": "Hiasan kecil pada ujung huruf"
+    },
+    "5": {
+      "question": "Apa tujuan utama dari desain komunikasi visual?",
+      "options": [
+        "Menarik perhatian dengan gambar",
+        "Menyampaikan pesan secara efektif melalui elemen visual",
+        "Membuat desain yang indah",
+        "Membuat poster yang menarik"
+      ],
+      "correctAnswer": "Menyampaikan pesan secara efektif melalui elemen visual"
+    },
+    "6": {
+      "question": "Elemen utama dalam desain komunikasi visual adalah...",
+      "options": [
+        "Garis, warna, teks, dan gambar",
+        "Audio, video, dan teks",
+        "Layout, website, dan banner",
+        "Fotografi, lukisan, dan patung"
+      ],
+      "correctAnswer": "Garis, warna, teks, dan gambar"
+    }
   },
-  "3": {
-    "question": "Software yang sering digunakan untuk membuat model 3D bangunan adalah...",
-    "options": ["AutoCAD", "Photoshop", "Microsoft Word", "CorelDRAW"],
-    "correctAnswer": "AutoCAD"
-  },
-  "4": {
-    "question": "Apa fungsi dari pondasi dalam konstruksi bangunan?",
-    "options": ["Menahan beban bangunan", "Membentuk desain atap", "Membuat tampilan estetika", "Membuat dinding lebih kuat"],
-    "correctAnswer": "Menahan beban bangunan"
-  },
-  "5": {
-    "question": "Gambar proyeksi yang menunjukkan tampak depan bangunan disebut...",
-    "options": ["Denah", "Potongan", "Tampak", "Perspektif"],
-    "correctAnswer": "Tampak"
-  },
-  "6": {
-    "question": "Bahan bangunan yang paling umum digunakan untuk struktur utama bangunan adalah...",
-    "options": ["Besi", "Bata", "Kayu", "Beton"],
-    "correctAnswer": "Beton"
+  "IPS": {
+    "1": {
+      "question": "Apa yang dimaksud dengan globalisasi?",
+      "options": [
+        "Proses penyebaran teknologi dan budaya secara global",
+        "Perdagangan antarnegara",
+        "Perkembangan ekonomi di negara berkembang",
+        "Peningkatan populasi dunia"
+      ],
+      "correctAnswer": "Proses penyebaran teknologi dan budaya secara global"
+    },
+    "2": {
+      "question": "Apa faktor utama yang mempengaruhi permintaan dan penawaran dalam ekonomi?",
+      "options": [
+        "Harga",
+        "Jumlah penduduk",
+        "Kebijakan pemerintah",
+        "Kualitas produk"
+      ],
+      "correctAnswer": "Harga"
+    },
+    "3": {
+      "question": "Perang Dunia II dimulai pada tahun...",
+      "options": [
+        "1939",
+        "1914",
+        "1945",
+        "1963"
+      ],
+      "correctAnswer": "1939"
+    },
+    "4": {
+      "question": "Siapakah tokoh yang dikenal sebagai Bapak Proklamasi Indonesia?",
+      "options": [
+        "Sukarno",
+        "Mohammad Hatta",
+        "Ki Hajar Dewantara",
+        "Sutomo"
+      ],
+      "correctAnswer": "Sukarno"
+    },
+    "5": {
+      "question": "Sistem pemerintahan Indonesia adalah...",
+      "options": [
+        "Demokrasi Pancasila",
+        "Kerajaan",
+        "Monarki Konstitusional",
+        "Oligarki"
+      ],
+      "correctAnswer": "Demokrasi Pancasila"
+    },
+    "6": {
+      "question": "Apa dampak positif dari urbanisasi?",
+      "options": [
+        "Meningkatnya lapangan kerja di kota",
+        "Penurunan penduduk di pedesaan",
+        "Kemacetan di perkotaan",
+        "Meningkatnya biaya hidup"
+      ],
+      "correctAnswer": "Meningkatnya lapangan kerja di kota"
+    }
   }
-},
-"DKV": {
-  "1": {
-    "question": "Apa yang dimaksud dengan desain grafis?",
-    "options": ["Proses menggambar manual", "Seni mengatur teks dan gambar untuk komunikasi visual", "Teknik fotografi", "Membuat film animasi"],
-    "correctAnswer": "Seni mengatur teks dan gambar untuk komunikasi visual"
-  },
-  "2": {
-    "question": "Prinsip utama dalam teori warna yang digunakan dalam desain grafis adalah...",
-    "options": ["RGB dan CMYK", "Red dan Blue", "Bright dan Dark", "Warm dan Cool"],
-    "correctAnswer": "RGB dan CMYK"
-  },
-  "3": {
-    "question": "Software yang paling umum digunakan untuk desain vektor adalah...",
-    "options": ["Adobe Illustrator", "Adobe Photoshop", "CorelDRAW", "SketchUp"],
-    "correctAnswer": "Adobe Illustrator"
-  },
-  "4": {
-    "question": "Dalam desain tipografi, istilah 'serif' mengacu pada...",
-    "options": ["Hiasan kecil pada ujung huruf", "Ukuran huruf", "Jarak antar karakter", "Tebal tipisnya huruf"],
-    "correctAnswer": "Hiasan kecil pada ujung huruf"
-  },
-  "5": {
-    "question": "Apa tujuan utama dari desain komunikasi visual?",
-    "options": ["Menarik perhatian dengan gambar", "Menyampaikan pesan secara efektif melalui elemen visual", "Membuat desain yang indah", "Membuat poster yang menarik"],
-    "correctAnswer": "Menyampaikan pesan secara efektif melalui elemen visual"
-  },
-  "6": {
-    "question": "Elemen utama dalam desain komunikasi visual adalah...",
-    "options": ["Garis, warna, teks, dan gambar", "Audio, video, dan teks", "Layout, website, dan banner", "Fotografi, lukisan, dan patung"],
-    "correctAnswer": "Garis, warna, teks, dan gambar"
-  }
-}
-
-
 }

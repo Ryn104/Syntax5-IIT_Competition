@@ -81,8 +81,8 @@
 
             <!-- Footer -->
             <div class="level-next p-10 flex justify-between bg-slate-200 absolute inset-x-0 bottom-0">
-                <button id="prev-button" class="bg-orange-300 w-32 py-1 font-bold rounded-md" disabled>Sebelum</button>
-                <button id="next-button" class="bg-orange-300 w-32 py-1 font-bold rounded-md" disabled>Lanjut</button>
+                <button id="prev-button" class="bg-orange-300 w-32 py-1 font-bold rounded-md 2xl:text-3xl 2xl:w-48 2xl:h-16" disabled>Sebelum</button>
+                <button id="next-button" class="bg-orange-300 w-32 py-1 font-bold rounded-md 2xl:text-3xl 2xl:w-48 2xl:h-16" disabled>Lanjut</button>
             </div>
             <!-- footer -->
 
@@ -142,7 +142,7 @@
             quizContent.options.forEach((option) => {
                 const button = document.createElement('button');
                 button.textContent = option;
-                button.classList = 'bg-slate-200 h-28 text-xl md:text-2xl px-5 font-semibold hover:bg-slate-400 hover:text-white rounded-md';
+                button.classList = 'bg-slate-200 h-28 text-xl md:text-2xl 2xl:text-3xl px-5 font-semibold hover:bg-slate-400 hover:text-white rounded-md';
                 button.addEventListener('click', () => {
                     validateAnswer(button, option, quizContent.correctAnswer);
                 });
