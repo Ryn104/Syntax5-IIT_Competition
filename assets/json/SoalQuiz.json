@@ -774,6 +774,39 @@
     "options": ["Besi", "Bata", "Kayu", "Beton"],
     "correctAnswer": "Beton"
   }
+},
+"DKV": {
+  "1": {
+    "question": "Apa yang dimaksud dengan desain grafis?",
+    "options": ["Proses menggambar manual", "Seni mengatur teks dan gambar untuk komunikasi visual", "Teknik fotografi", "Membuat film animasi"],
+    "correctAnswer": "Seni mengatur teks dan gambar untuk komunikasi visual"
+  },
+  "2": {
+    "question": "Prinsip utama dalam teori warna yang digunakan dalam desain grafis adalah...",
+    "options": ["RGB dan CMYK", "Red dan Blue", "Bright dan Dark", "Warm dan Cool"],
+    "correctAnswer": "RGB dan CMYK"
+  },
+  "3": {
+    "question": "Software yang paling umum digunakan untuk desain vektor adalah...",
+    "options": ["Adobe Illustrator", "Adobe Photoshop", "CorelDRAW", "SketchUp"],
+    "correctAnswer": "Adobe Illustrator"
+  },
+  "4": {
+    "question": "Dalam desain tipografi, istilah 'serif' mengacu pada...",
+    "options": ["Hiasan kecil pada ujung huruf", "Ukuran huruf", "Jarak antar karakter", "Tebal tipisnya huruf"],
+    "correctAnswer": "Hiasan kecil pada ujung huruf"
+  },
+  "5": {
+    "question": "Apa tujuan utama dari desain komunikasi visual?",
+    "options": ["Menarik perhatian dengan gambar", "Menyampaikan pesan secara efektif melalui elemen visual", "Membuat desain yang indah", "Membuat poster yang menarik"],
+    "correctAnswer": "Menyampaikan pesan secara efektif melalui elemen visual"
+  },
+  "6": {
+    "question": "Elemen utama dalam desain komunikasi visual adalah...",
+    "options": ["Garis, warna, teks, dan gambar", "Audio, video, dan teks", "Layout, website, dan banner", "Fotografi, lukisan, dan patung"],
+    "correctAnswer": "Garis, warna, teks, dan gambar"
+  }
 }
+
 
 }
