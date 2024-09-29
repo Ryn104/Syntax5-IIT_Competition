@@ -18,114 +18,135 @@
       rel="stylesheet"
     />
     <!-- tailwindcss -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- tailwind.config -->
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: "#da373d",
-            },
-            fontFamily: {
-              inter: ["Inter"],
-              poppins: ["Poppins"],
-            },
-          },
-        },
-      };
-    </script>
   </head>
   <body>
-    <section class="aboutus mx-20 my-20">
+    <section class="aboutus mx-20 my-20 ">
       <div class="mx-auto container mt-24">
         <!-- tentang kami -->
-        <div class="grid grid-cols-2 gap-8">
+        <div class="grid xl:grid-cols-2 gap-8 w-full">
           <div class="font-inter">
-            <h1 class="font-bold text-4xl my-4">Tentang Kami</h1>
-            <p class="text-3xl font-medium">
+            <h1 class="font-bold text-2xl xl:text-4xl xl:my-4">Tentang Kami</h1>
+            <p class="text-lg mt-4 xl:text-3xl font-medium">
               Selamat datang di EduBook, platform terdepan dalam menyediakan
               solusi pendidikan yang inovatif dan komprehensif. Kami berdedikasi
               untuk menciptakan pengalaman belajar yang menyenangkan dan
               efektif, serta menyediakan berbagai kursus yang dirancang untuk
               memenuhi kebutuhan pembelajaran Anda.
             </p>
-            <div class="grid grid-cols-2 text-2xl font-medium mt-6">
+            <div class="grid xl:grid-cols-2 text-base xl:text-2xl font-medium mt-6">
               <p>+62 857 1100 2971</p>
               <p>rafligamingffpro@gmail.com</p>
             </div>
           </div>
-          <div class="">
+          <div class="w-full xl:w-auto">
             <img
-              src="New folder/img/🌎 Map Maker_ Cibeunying Kidul, Bandung, West Java, Indonesia (Standard).png"
+              src="/assets/image/🌎 Map Maker_ Cibeunying Kidul, Bandung, West Java, Indonesia (Standard).png"
               alt=""
             />
           </div>
         </div>
         <!-- visi misi -->
-        <div class="my-20 font-inter">
-          <h1 class="text-4xl font-bold font-inter text-center">Visi & Misi</h1>
-          <div class="pt-8 pb-16 px-8 bg-[#FF9900] rounded-lg mt-8 shadow-2xl">
-            <h2 class="text-4xl font-bold mb-4">MISI</h2>
-            <p class="text-2xl font-semibold">
-              Misi kami adalah menyediakan materi berkualitas sesuai kurikulum,
-              mengembangkan kursus praktis, dan mendorong pembelajaran mandiri.
-              Dukungan karier, platform kolaboratif, serta peningkatan kualitas
-              materi juga menjadi prioritas melalui umpan balik dan perkembangan
-              terkini.
-            </p>
+        
+        
+        <!-- END -->
+        <div class=" justify-end mb-20">
+          <div class="flex justify-end items-end mt-4">
+            <label class="swap">
+              <input type="checkbox" id="color_mode" onchange="toggleData()" class="hidden" />
+              <div
+                class="swap-on hover:bg-[#D9D9D9] hover:text-black  inline-block flex items-center justify-center px-4 xl:px-16 xl:h-16 bg-[#FF9500] text-white text-lg xl:text-xl font-semibold btn rounded-[5px] xl:rounded-[10px] transition-all duration-300"
+              >
+                Visi
+              </div>
+              <div
+                class="swap-off hover:bg-[#FF9900] hover:text-white mt-2 flex items-center justify-center px-8 xl:px-16 xl:h-16 bg-base-100 text-lg xl:text-xl font-semibold btn rounded-[5px] xl:rounded-[10px] transition-all duration-300"
+              >
+                Misi
+              </div>
+            </label>
+          </div>
+          <div
+            id="dataVisiMisi"
+            class="groud-card flex pt-10 justify-center xl:mb-10 mb-4"
+          >
+            <div
+              class="bg-[#FF9900] xl:w-4/5 rounded-[5px] p-10 xl:p-12 xl:rounded-[10px] xl:h-full"
+            >
+              <div class="items-center">
+                <div class="flex text-start mb-1">
+                  <h2
+                    class="title font-bold bg-base-200 px-2 rounded-[5px] xl:text-4xl text-xl"
+                  >
+                    VISI
+                  </h2>
+                </div>
+
+                <div class="flex justify-center items-center">
+                  <div>
+                    <p class="xl:text-xl text-md xl:font-medium text-left w">
+                      Menjadi platform pendidikan terkemuka yang memberdayakan
+                      siswa SMK sederajat dengan akses mudah dan berkualitas
+                      kepada materi dan kursus yang relevan, untuk mempersiapkan
+                      mereka menghadapi tantangan dunia kerja dan meraih
+                      kesuksesan di masa depan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
         <!-- tujuan kami -->
-        <div class="grid grid-cols-2 gap-20">
+        <div class="grid xl:grid-cols-2 gap-20 xl:mt-20">
           <!-- 4 kotak -->
-          <div class="kotak grid grid-cols-2 gap-4">
+          <div class="kotak gap-2 xl:grid grid-cols-2 xl:gap-4">
             <div
-              class="grid1 bg-[#F8F8F8] rounded-lg shadow-xl px-4 pt-4 pb-8 text-2xl font-bold font-inter leading-relaxed"
+              class="grid1 bg-[#F8F8F8] rounded-lg shadow-md px-4 pt-4 pb-8 text-base xl:text-2xl font-bold font-inter xl:leading-relaxed"
             >
               <div
-                class="icon bg-[#FFF9F0] border p-2 border-[#FFEACC] rounded-lg h-12 w-12 mb-8"
+                class="icon bg-[#FFF9F0]  border p-2 border-[#FFEACC] rounded-lg h-12 w-12 mb-8"
               >
-                <img src="New folder/img/bag.svg" class="px-1 pb-1" alt="" />
+                <img src="/assets/image/bag.svg" class="px-1 pb-1" alt="" />
               </div>
               Mendukung <br />
               Pengembangan karir
             </div>
             <div
-              class="grid1 bg-[#F8F8F8] rounded-lg shadow-xl px-4 pt-4 pb-8 text-2xl font-bold font-inter leading-relaxed"
+              class="grid1 bg-[#F8F8F8] rounded-lg shadow-md px-4 pt-4 pb-8 text-base xl:text-2xl font-bold font-inter xl:leading-relaxed"
             >
               <div
                 class="icon bg-[#FFF9F0] border p-2 border-[#FFEACC] rounded-lg h-12 w-12 mb-8"
               >
-                <img src="New folder/img/book.svg" class="px-1 pb-1" alt="" />
+                <img src="/assets/image/book.svg" class="px-1 pb-1" alt="" />
               </div>
               Menyediakan Materi Berkualitas
             </div>
             <div
-              class="grid1 bg-[#F8F8F8] rounded-lg shadow-xl px-4 pt-4 pb-8 text-2xl font-bold font-inter leading-relaxed"
+              class="grid1 bg-[#F8F8F8] rounded-lg shadow-md px-4 pt-4 pb-8 text-base xl:text-2xl font-bold font-inter xl:leading-relaxed"
             >
               <div
                 class="icon bg-[#FFF9F0] border p-2 border-[#FFEACC] rounded-lg h-12 w-12 mb-8"
               >
-                <img src="New folder/img/puzzle.svg" class="" alt="" />
+                <img src="/assets/image/puzzle.svg" class="" alt="" />
               </div>
               Mendorong Pembelajar Mandiri
             </div>
             <div
-              class="grid1 bg-[#F8F8F8] rounded-lg shadow-xl px-4 pt-4 pb-8 text-2xl font-bold font-inter leading-relaxed"
+              class="grid1 bg-[#F8F8F8] rounded-lg shadow-md px-4 pt-4 pb-8 text-base xl:text-2xl  font-bold font-inter xl:leading-relaxed"
             >
               <div
                 class="icon bg-[#FFF9F0] border p-2 border-[#FFEACC] rounded-lg h-12 w-12 mb-8"
               >
-                <img src="New folder/img/sirine.svg" class="" alt="" />
+                <img src="/assets/image/sirine.svg" class="" alt="" />
               </div>
               Mengembangkan Kursus Praktis
             </div>
           </div>
 
           <div class="tujuan-kami font-inter">
-            <h1 class="text-4xl font-bold my-6 text-end">Tujuan Kami</h1>
-            <p class="text-2xl font-bold text-justify leading-relaxed">
+            <h1 class="xl:text-4xl text-2xl font-bold my-4 xl:my-6 text-end">Tujuan Kami</h1>
+            <p class=" text-base xl:text-2xl font-bold text-justify leading-relaxed">
               Menjadi platform pendidikan terkemuka yang memberdayakan siswa SMK
               sederajat dengan akses mudah dan berkualitas kepada materi dan
               kursus yang relevan, untuk mempersiapkan mereka menghadapi
@@ -134,20 +155,111 @@
           </div>
         </div>
         <!-- ajakan -->
-        <div class="px-10 pt-10 py-16 bg-[#FF9900] rounded-lg shadow-xl mt-20">
-          
-          <h1 class="text-4xl font-bold font-poppins">
+        <div class="px-4 py-4 xl:px-10 xl:py-8 bg-[#FF9900] rounded-lg shadow-xl mt-20">
+          <h1 class="text-2xl xl:text-4xl font-bold font-poppins px-4 py-2">
             Tingkatkan skill mu dengan
             <span class="text-[#51EAFF]"> Edubook!</span> Belajar online <br />
             praktis untuk karier masa depan!
           </h1>
-          <a
-            href=""
-            class="text-3xl justify-center font-poppins font-semibold py-3 px-4 bg-[#FFB651] rounded-xl"
-            >bergabung</a
-          >
+          <div class="flex justify-end">
+            <a
+              href=""
+              class="text-xl py-2 px-2 xl:text-3xl font-poppins font-semibold xl:py-4 xl:px-4 bg-[#FFB651] rounded-xl hover:bg-[#D9D9D9]"
+              >bergabung</a
+            >
+          </div>
         </div>
-      </div>
+     
     </section>
   </body>
+
+  <script>
+    function toggleData() {
+      const checkbox = document.getElementById("color_mode");
+      const content = document.getElementById("dataVisiMisi");
+
+      if (checkbox.checked) {
+        // Saat "Pusat Data" aktif
+        content.innerHTML = `
+          <div
+            id="dataVisiMisi"
+            class="groud-card flex pt-10 justify-center xl:mb-10 mb-4"
+          >
+            <div
+              class="bg-[#FF9900] xl:w-4/5 rounded-[5px] p-10 xl:p-12 xl:rounded-[10px] xl:h-full"
+            >
+              <div class="items-center">
+                <div class="flex text-start mb-1">
+                  <h2
+                    class="title font-bold bg-base-200 px-2 rounded-[5px] xl:text-4xl text-xl"
+                  >
+                    VISI
+                  </h2>
+                </div>
+
+                <div class="flex justify-center items-center">
+                  <div>
+                    <p class="xl:text-xl text-md xl:font-medium text-left w">
+                      Menjadi platform pendidikan terkemuka yang memberdayakan
+                      siswa SMK sederajat dengan akses mudah dan berkualitas
+                      kepada materi dan kursus yang relevan, untuk mempersiapkan
+                      mereka menghadapi tantangan dunia kerja dan meraih
+                      kesuksesan di masa depan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      } else {
+        // Saat "Data Realtime" aktif
+        content.innerHTML = `
+            <div
+              class="bg-[#FF9900] xl:w-4/5 rounded-[5px] p-10 xl:p-12 xl:rounded-[10px] xl:h-full"
+            >
+              <div class="items-center">
+                <div class="flex text-start mb-1">
+                  <h2
+                    class="title font-bold bg-base-200 px-2 rounded-[5px] xl:text-4xl text-xl"
+                  >
+                    MISI
+                  </h2>
+                </div>
+
+                <div class="flex justify-center items-center">
+                  <div>
+                    <p class="xl:text-xl text-md xl:font-medium text-left w">
+                      Menjadi platform pendidikan terkemuka yang memberdayakan
+                      siswa SMK sederajat dengan akses mudah dan berkualitas
+                      kepada materi dan kursus yang relevan, untuk mempersiapkan
+                      mereka menghadapi tantangan dunia kerja dan meraih
+                      kesuksesan di masa depan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        `;
+      }
+    }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="assets/javascript/script.js"></script>
+  <!-- tailwind.config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: "#da373d",
+          },
+          fontFamily: {
+            inter: ["Inter"],
+            poppins: ["Poppins"],
+          },
+        },
+      },
+    };
+  </script>
 </html>
