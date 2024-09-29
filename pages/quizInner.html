@@ -65,21 +65,21 @@
         </div>
         <!-- quiz carousel -->
 
-        <div class="quiz-komponen mb-32 px-5">
-            <h1 id="quiz-title" class="text-3xl font-bold mb-4">Quiz</h1>
-            <div id="quiz-content" class="text-2xl font-medium mb-12">
+        <div class="quiz-komponen mb-32 px-5 2xl:px-32">
+            <h1 id="quiz-title" class="text-3xl font-bold mb-4 md:text-5xl md:pt-8 md:pb-3">Quiz</h1>
+            <div id="quiz-content" class="text-2xl font-medium mb-12 md:text-3xl">
                 <!-- Konten quiz akan diisi berdasarkan parameter di URL -->
             </div>
-            <p class="text-3xl font-bold text-left mb-12 border-4 border-base-200 border-b-gray-900 w-40 text-center">Level</p> 
+            <p class="text-3xl font-bold text-left mb-12 border-4 border-base-200 border-b-gray-900 w-40 text-center md:text-4xl md:pt-8">Level</p> 
             <div class="flex justify-center">
-                <div class="quiz-level flex justify-center w-full content-evenly xl:w-4/5 xl:p-8">
+                <div class="quiz-level flex justify-center w-full content-evenly md:w-4/5 md:pt-14 xl:w-4/5 xl:p-8">
                     <div class="img-level grid grid-cols-3 xl:p-24 xl:py-6 gap-5 xl:gap-16 w-full">
-                        <a id="quizLink1" href="quizQuestion.html?subject=TJKT&level=1" data-level="1" class="btn-level btn content-center xl:p-16 btn-circle text-center p-10 bg-red-600 border-4 xl:border-8 border-black rounded-full text-4xl xl:text-5xl text-slate-100 font-bold mx-auto">1</a>
-                        <a id="quizLink2" href="quizQuestion.html?subject=TJKT&level=2" data-level="2" class="btn-level btn content-center xl:p-16 btn-circle text-center p-10 bg-red-600 border-4 xl:border-8 border-black rounded-full text-4xl xl:text-5xl text-slate-100 font-bold mx-auto">2</a>
-                        <a id="quizLink3" href="quizQuestion.html?subject=TJKT&level=3" data-level="3" class="btn-level btn content-center xl:p-16 btn-circle text-center p-10 bg-red-600 border-4 xl:border-8 border-black rounded-full text-4xl xl:text-5xl text-slate-100 font-bold mx-auto">3</a>
-                        <a id="quizLink4" href="quizQuestion.html?subject=TJKT&level=4" data-level="4" class="btn-level btn content-center xl:p-16 btn-circle text-center p-10 bg-red-600 border-4 xl:border-8 border-black rounded-full text-4xl xl:text-5xl text-slate-100 font-bold mx-auto">4</a>
-                        <a id="quizLink5" href="quizQuestion.html?subject=TJKT&level=5" data-level="5" class="btn-level btn content-center xl:p-16 btn-circle text-center p-10 bg-red-600 border-4 xl:border-8 border-black rounded-full text-4xl xl:text-5xl text-slate-100 font-bold mx-auto">5</a>
-                        <a id="quizLink6" href="quizQuestion.html?subject=TJKT&level=6" data-level="6" class="btn-level btn content-center xl:p-16 btn-circle text-center p-10 bg-red-600 border-4 xl:border-8 border-black rounded-full text-4xl xl:text-5xl text-slate-100 font-bold mx-auto">6</a>
+                        <a id="quizLink1" href="quizQuestion.html?subject=TJKT&level=1" data-level="1" class="btn-level btn content-center xl:p-16 btn-circle text-center bg-[#FF9500] rounded-full text-4xl md:text-5xl xl:text-5xl text-slate-100 font-bold mx-auto md:w-36 md:h-36 md:mb-16">1</a>
+                        <a id="quizLink2" href="quizQuestion.html?subject=TJKT&level=2" data-level="2" class="btn-level btn content-center xl:p-16 btn-circle text-center bg-[#FF9500] rounded-full text-4xl md:text-5xl xl:text-5xl text-slate-100 font-bold mx-auto md:w-36 md:h-36 md:mb-16">2</a>
+                        <a id="quizLink3" href="quizQuestion.html?subject=TJKT&level=3" data-level="3" class="btn-level btn content-center xl:p-16 btn-circle text-center bg-[#FF9500] rounded-full text-4xl md:text-5xl xl:text-5xl text-slate-100 font-bold mx-auto md:w-36 md:h-36 md:mb-16">3</a>
+                        <a id="quizLink4" href="quizQuestion.html?subject=TJKT&level=4" data-level="4" class="btn-level btn content-center xl:p-16 btn-circle text-center bg-[#FF9500] rounded-full text-4xl md:text-5xl xl:text-5xl text-slate-100 font-bold mx-auto md:w-36 md:h-36 md:mb-16">4</a>
+                        <a id="quizLink5" href="quizQuestion.html?subject=TJKT&level=5" data-level="5" class="btn-level btn content-center xl:p-16 btn-circle text-center bg-[#FF9500] rounded-full text-4xl md:text-5xl xl:text-5xl text-slate-100 font-bold mx-auto md:w-36 md:h-36 md:mb-16">5</a>
+                        <a id="quizLink6" href="quizQuestion.html?subject=TJKT&level=6" data-level="6" class="btn-level btn content-center xl:p-16 btn-circle text-center bg-[#FF9500] rounded-full text-4xl md:text-5xl xl:text-5xl text-slate-100 font-bold mx-auto md:w-36 md:h-36 md:mb-16">6</a>
                     </div>
                 </div>
             </div>
@@ -183,10 +183,7 @@
         if (!quizName) {
             quizTitleElement.textContent = "Quiz Tidak Ditemukan";
             quizContentElement.textContent = "Silakan masukkan parameter quiz.";
-        } else if (!subject || !level) {
-            quizTitleElement.textContent = "Parameter Tidak Lengkap";
-            quizContentElement.textContent = "Pastikan menambahkan parameter subject dan level.";
-        } else if (quizContent[quizName]) {
+        }  else if (quizContent[quizName]) {
             quizTitleElement.textContent = quizContent[quizName].title;
             quizContentElement.textContent = quizContent[quizName].content;
         } else {

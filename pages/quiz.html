@@ -46,7 +46,7 @@
   <!-- End NavBar -->
 
     <!-- Quiz Start -->
-    <section class="quiz 2xl:pt-40">
+    <section class="quiz 2xl:pt-10">
 
         <!-- quiz carousel -->
         <div class="carousel w-full mt-16">
@@ -68,9 +68,9 @@
         <!-- quiz carousel -->
 
         <div class="quiz-komponen mb-32">
-            <p class="text-2xl font-bold xl:ml-40 text-center mb-12">Quiz Time!</p>
+            <p class="text-2xl font-bold xl:ml-40 text-center mb-12 md:text-5xl">Quiz Time!</p>
             <div class="flex justify-center">
-                <div class="quiz-accordion w-full xl:w-4/5" id="quiz-container">
+                <div class="quiz-accordion w-full xl:w-4/5 md:px-10 px-4" id="quiz-container">
                     <!-- Konten quiz akan dimasukkan di sini melalui JavaScript -->
                 </div>
             </div>
@@ -153,7 +153,7 @@ function generateQuizAccordion(quizData) {
     const quizContainer = document.getElementById('quiz-container');
     quizData.forEach((kategori, index) => {
         const collapseDiv = document.createElement('div');
-        collapseDiv.className = 'collapse collapse-arrow bg-transparent';
+        collapseDiv.className = 'collapse collapse-arrow md:mb-4 md:rounded-[10px] mb-2 rounded-[8px]';
         
         const input = document.createElement('input');
         input.type = 'radio';
@@ -161,7 +161,7 @@ function generateQuizAccordion(quizData) {
         if (index === 0) input.checked = true;  // Memilih radio pertama sebagai default
         
         const collapseTitle = document.createElement('div');
-        collapseTitle.className = 'collapse-title text-lg xl:text-xl font-medium';
+        collapseTitle.className = 'collapse-title text-lg xl:text-xl font-semibold md:text-3xl 2xl:text-4xl 2xl:font-bold';
         collapseTitle.textContent = kategori.kategori;
         
         const hr = document.createElement('hr');
@@ -175,7 +175,7 @@ function generateQuizAccordion(quizData) {
             const a = document.createElement('a');
             a.href = quiz.link;
             const p = document.createElement('p');
-            p.className = 'hover:border-b-2 hover:border-gray w-2/4';
+            p.className = 'hover:font-bold hover:text-[#FF9500] w-2/4 md:text-2xl font-medium';
             p.textContent = quiz.nama;
             a.appendChild(p);
             collapseContent.appendChild(a);
