@@ -25,7 +25,7 @@
           <li><a href="/pages/quiz.html">Quiz</a></li>
           <li><a href="/pages/komunitas.html">Komunitas</a></li>
           <li><a href="/pages/tentangkami.html">Tentang Kami</a></li>
-          <li><a href="">Langganan</a></li>
+          <li><a href="/pages/langganan.html">Langganan</a></li>
         </ul>
       </div>
       <a class="btn btn-ghost text-xl 2xl:text-3xl" href="/index.html">EduBook</a>
@@ -36,7 +36,7 @@
         <li><a class="2xl:text-xl" href="/pages/quiz.html">Quiz</a></li>
         <li><a class="2xl:text-xl" href="/pages/komunitas.html">Komunitas</a></li>
         <li><a class="2xl:text-xl" href="/pages/tentangkami.html">Tentang Kami</a></li>
-        <li><a class="2xl:text-xl" href="">Langganan</a></li>
+        <li><a class="2xl:text-xl" href="/pages/langganan.html">Langganan</a></li>
       </ul>
     </div>
     <div class="navbar-end">
@@ -51,24 +51,24 @@
         <!-- quiz carousel -->
         <div class="carousel w-full mt-16">
             <div id="item1" class="carousel-item w-full">
-                <img src="/assets/Image/banner-quiz1.jpg" class="w-full" />
+                <img src="/assets/Image/banner-quiz1.jpg" class="w-full 2xl:h-[800px]" />
             </div>
             <div id="item2" class="carousel-item w-full">
-                <img src="/assets/Image/banner-quiz2.jpg" class="w-full" />
+                <img src="/assets/Image/banner-quiz2.jpg" class="w-full 2xl:h-[800px]" />
             </div>
             <div id="item3" class="carousel-item w-full">
-                <img src="/assets/Image/banner-quiz3.jpg" class="w-full" />
+                <img src="/assets/Image/banner-quiz3.jpg" class="w-full 2xl:h-[800px]" />
             </div>
         </div>
-        <div class="flex w-full justify-center gap-2 py-2 mt-[-30px] mb-10">
-            <a href="#item1" class="w-[40px] h-[10px] backdrop-blur-sm bg-gray-400/20 hover:bg-gray-700/10 rounded-l-lg"></a>
-            <a href="#item2" class="w-[40px] h-[10px] backdrop-blur-sm bg-gray-400/20 hover:bg-gray-700/10"></a>
-            <a href="#item3" class="w-[40px] h-[10px] backdrop-blur-sm bg-gray-400/20 hover:bg-gray-700/10 rounded-r-lg"></a>
+        <div class="flex w-full justify-center gap-2 py-2 mt-[-30px] 2xl:mt-[-50px] 2xl:mb-24 mb-10">
+            <a href="#item1" class="w-[40px] h-[10px] backdrop-blur-sm bg-gray-400/20 hover:bg-gray-700/10 2xl:h-6 2xl:w-32 rounded-l-lg"></a>
+            <a href="#item2" class="w-[40px] h-[10px] backdrop-blur-sm bg-gray-400/20 hover:bg-gray-700/10 2xl:h-6 2xl:w-32"></a>
+            <a href="#item3" class="w-[40px] h-[10px] backdrop-blur-sm bg-gray-400/20 hover:bg-gray-700/10 2xl:h-6 2xl:w-32 rounded-r-lg"></a>
         </div>
         <!-- quiz carousel -->
 
         <div class="quiz-komponen mb-32">
-            <p class="text-2xl font-bold xl:ml-40 text-center mb-12 md:text-5xl">Quiz Time!</p>
+            <p class="text-2xl font-bold text-center mb-12 md:text-5xl">Quiz Time!</p>
             <div class="flex justify-center">
                 <div class="quiz-accordion w-full xl:w-4/5 md:px-10 px-4" id="quiz-container">
                     <!-- Konten quiz akan dimasukkan di sini melalui JavaScript -->
@@ -124,35 +124,35 @@ const quizData = [
     {
         kategori: "Kejuruan",
         quizzes: [
-            { nama: "Rekayasa Perangkat Lunak", link: "quizInner.html?quiz=RPL" },
-            { nama: "Teknik Jaringan Komputer dan Telekomunikasi", link: "quizInner.html?quiz=TJKT" },
-            { nama: "Desain Permodelan dan Informasi Bangunan", link: "quizInner.html?quiz=DPIB" },
-            { nama: "Tata Boga", link: "quizInner.html?quiz=TataBoga" },
-            { nama: "Kimia Analisis", link: "quizInner.html?quiz=KimiaAnalisis" },
-            { nama: "Broadcasting", link: "quizInner.html?quiz=Broadcasting" },
-            { nama: "Geomatika", link: "quizInner.html?quiz=Geomatika" },
-            { nama: "Desain Komunikasi Visual", link: "quizInner.html?quiz=DKV" },
+            { nama: " • Rekayasa Perangkat Lunak", link: "quizInner.html?quiz=RPL" },
+            { nama: " • Teknik Jaringan Komputer dan Telekomunikasi", link: "quizInner.html?quiz=TJKT" },
+            { nama: " • Desain Permodelan dan Informasi Bangunan", link: "quizInner.html?quiz=DPIB" },
+            { nama: " • Tata Boga", link: "quizInner.html?quiz=TataBoga" },
+            { nama: " • Kimia Analisis", link: "quizInner.html?quiz=KimiaAnalisis" },
+            { nama: " • Broadcasting", link: "quizInner.html?quiz=Broadcasting" },
+            { nama: " • Geomatika", link: "quizInner.html?quiz=Geomatika" },
+            { nama: " • Desain Komunikasi Visual", link: "quizInner.html?quiz=DKV" },
         ]
     },
     {
         kategori: "Mata Pelajaran Umum",
         quizzes: [
-            { nama: "Bahasa Indonesia", link: "quizInner.html?quiz=BahasaIndonesia" },
-            { nama: "Bahasa Inggris", link: "quizInner.html?quiz=BahasaInggris" },
-            { nama: "Matematika", link: "quizInner.html?quiz=Matematika" },
-            { nama: "Sejarah", link: "quizInner.html?quiz=Sejarah" },
-            { nama: "Pendidikan Pancasila dan Kewarganegaraan", link: "quizInner.html?quiz=PPKn" },
-            { nama: "Ilmu Pengetahuan Alam", link: "quizInner.html?quiz=IPA" },
-            { nama: "Ilmu Pengetahuan Sosial", link: "quizInner.html?quiz=IPS" }
+            { nama: " • Bahasa Indonesia", link: "quizInner.html?quiz=BahasaIndonesia" },
+            { nama: " • Bahasa Inggris", link: "quizInner.html?quiz=BahasaInggris" },
+            { nama: " • Matematika", link: "quizInner.html?quiz=Matematika" },
+            { nama: " • Sejarah", link: "quizInner.html?quiz=Sejarah" },
+            { nama: " • Pendidikan Pancasila dan Kewarganegaraan", link: "quizInner.html?quiz=PPKn" },
+            { nama: " • Ilmu Pengetahuan Alam", link: "quizInner.html?quiz=IPA" },
+            { nama: " • Ilmu Pengetahuan Sosial", link: "quizInner.html?quiz=IPS" }
         ]
     },
     {
         kategori: "Terpopuler",
         quizzes: [
-            { nama: "Teknik Jaringan Komputer dan Telekomunikasi", link: "quizInner.html?quiz=TJKT" },
-            { nama: "Rekayasa Perangkat Lunak", link: "quizInner.html?quiz=RPL" },
-            { nama: "Matematika", link: "quizInner.html?quiz=Matematika" },
-            { nama: "Kimia Analisis", link: "quizInner.html?quiz=KimiaAnalisis" }
+            { nama: " • Teknik Jaringan Komputer dan Telekomunikasi", link: "quizInner.html?quiz=TJKT" },
+            { nama: " • Rekayasa Perangkat Lunak", link: "quizInner.html?quiz=RPL" },
+            { nama: " • Matematika", link: "quizInner.html?quiz=Matematika" },
+            { nama: " • Kimia Analisis", link: "quizInner.html?quiz=KimiaAnalisis" }
         ]
     }
 ];
