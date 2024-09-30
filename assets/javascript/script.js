@@ -2,8 +2,11 @@ const logos = [
     { src: "assets/logos/Zoom.png", alt: "Zoom" },
     { src: "assets/logos/Classroom.png", alt: "Google Classroom" },
     { src: "assets/logos/TUT-WURI-HANDAYANI.png", alt: "Tutwuri Handayani" },
-    { src: "assets/logos/Telkomsel.png", alt: "Education Logo 1" },
-    { src: "assets/logos/INTEL.png", alt: "Education Logo 2" }
+    { src: "assets/logos/Telkomsel.png", alt: "telkomsel" },
+    { src: "assets/logos/google.png", alt: "google" },
+    { src: "assets/logos/INTEL.png", alt: "Education Logo 2" },
+    { src: "assets/logos/unesco.png", alt: "unesco" },
+    { src: "assets/logos/merdeka.png", alt: "merdeka" }
 ];
 
 const logoCarousel = document.getElementById('logoCarousel');
@@ -22,15 +25,15 @@ logos.forEach(logo => {
 });
 
 const reviews = [
-    { profile: "1", name: "Riyan Handriyana", role: "FrontEnd", message: "Sangat menyenangkan balajar di website ini!", rating: 4 },
-    { profile: "2", name: "Wandi Apriansyah", role: "FullStack", message: "Bekerja dengan baik kurir sangat cepat", rating: 5 },
-    { profile: "3", name: "Dava Ghifari", role: "FrontEnd", message: "Kata-kata naon", rating: 4 },
-    { profile: "1", name: "Hamba Allah", role: "FrontEnd", message: "Terus semangat dan jangan menyerah", rating: 3 },
-    { profile: "2", name: "Rafli Wibu", role: "FrontEnd", message: "Tidak ada yang perlu disesali", rating: 2 },
-    { profile: "3", name: "Manusia Sigma", role: "Samurai", message: "Keyakinan adalah langkah pertama menuju pencapaian", rating: 5 },
-    { profile: "1", name: "Asy Syams", role: "Networking", message: "Tidak punya kata-kata", rating: 1 },
-    { profile: "2", name: "Akbar Emur", role: "Multimedia", message: "Walaupun hidup 1000 tahun kalau tak sembahyang apa gunanya", rating: 5 },
-    { profile: "3", name: "Sevian Ludiana", role: "Siswa SMKN 5", message: "Tetaplah bernafas", rating: 5 },
+    { profile: "1", name: "Riyan Handriyana", role: "FrontEnd", message: "Komunitas EduLearn sangat aktif dengan forum diskusi yang dinamis, memudahkan berbagi pengetahuan dan mendapatkan dukungan dari sesama pengguna", rating: 4 },
+    { profile: "2", name: "Wandi Apriansyah", role: "FullStack", message: "EduLearn menawarkan fitur lengkap dengan tampilan yang bersih dan navigasi yang mudah, membuat proses belajar menjadi lebih nyaman", rating: 5 },
+    { profile: "3", name: "Dava Ghifari", role: "FrontEnd", message: "Komunitas EduLearn sangat aktif dengan forum diskusi yang dinamis, memudahkan berbagi pengetahuan dan mendapatkan dukungan dari sesama penggun", rating: 4 },
+    { profile: "1", name: "Khulika", role: "FrontEnd", message: "Konten di EduLearn sangat berkualitas, dengan materi yang mendalam dan penjelasan yang mudah dipahami, ditambah dengan video dan infografis yang menarik", rating: 4 },
+    { profile: "2", name: "Muhammad Rafli", role: "FrontEnd", message: "Konten EduLearn berkualitas tinggi dengan materi mendalam, penjelasan jelas, dan infografis menarik yang membuat belajar lebih interaktif dan efektif", rating: 5 },
+    { profile: "3", name: "Naufal", role: "Networking", message: "Desain visual EduLearn modern, namun elemen grafis dan warna yang banyak bisa menjadi distraksi bagi sebagian pengguna dalam belajar", rating: 5 },
+    { profile: "1", name: "Asy Syams", role: "Networking", message: "EduLearn tidak menyediakan fitur akses offline, jadi pengguna dengan koneksi internet tidak stabil mungkin akan mengalami kesulitan", rating: 3 },
+    { profile: "2", name: "Muhammad Akbar", role: "Multimedia", message: "EduLearn bagus banget pokoknya apalagi yang sekolahnya di tingkat SMK udah jelas kepake banget ini pelajarannya, makasih edubook udah sediain materi khusus SMK", rating: 5 },
+    { profile: "3", name: "Sevian Ludiana", role: "UI/UX Desainer", message: "Kecepatan loading halaman EduLearn terkadang lambat, terutama dengan koneksi internet kurang stabil, yang dapat mengganggu pengalaman belajar", rating: 4 },
   ];
   
   const carouselContainer = document.getElementById('carousel-container');
@@ -39,7 +42,7 @@ const reviews = [
     const carouselItem = `
       <div class="carousel-item">
         <div class="mx-2 2xl:mx-4">
-          <div class="card bg-base-100 w-96 2xl:w-[350px] h-full shadow-xl 2xl:px-5 2xl:py-3">
+          <div class="card bg-base-100 w-96 2xl:w-[450px] h-full shadow-xl 2xl:px-5 2xl:py-3">
             <div class="card-body">
               <div class="flex gap-2 2xl:gap-4">
                 <div class="self-center">
